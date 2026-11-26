@@ -34,6 +34,16 @@ class CheckResearch(unittest.TestCase):
         self.assertEqual(check(files), ["eyes.md:1: malformed citation [@ bad]",
                                         "index.md does not link eyes.md"])
 
+    def test_link_on_a_continuation_line(self):
+        sources = ("- **[@Smith2020]** Smith (2020). A long title\n"
+                   "  that wraps. https://doi.org/10.1/x\n"
+                   "\n"
+                   "  An indented line after a blank one is not part of the entry: https://x\n"
+                   "- **[@Lee2001]** Lee (2001). No link.\n")
+        files = {"sources.md": sources, "index.md": INDEX,
+                 "body.md": "[@Smith2020; @Lee2001]\n"}
+        self.assertEqual(check(files), ["sources.md: @Lee2001 has no https link"])
+
     def test_duplicate_key(self):
         files = {"sources.md": SOURCES * 2, "index.md": INDEX, "body.md": "[@Smith2020]\n"}
         self.assertEqual(check(files), ["sources.md: @Smith2020 is listed twice"])
