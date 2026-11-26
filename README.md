@@ -5,7 +5,7 @@ about a tiger. It covers the science (taxonomy, evolution, body, senses, hunting
 cycle, subspecies, range, ecology, conservation) and the culture (history, myth, art, and the
 trade in tiger parts). Every lesson ends with interactive, hands-on checks.
 
-Status: not built yet. See `docs/BRIEF.md`.
+Status: research phase. The cited dossier is in `docs/research/` (start at its `index.md`); the site is not built yet. See `docs/BRIEF.md`.
 
 License: MIT.
 

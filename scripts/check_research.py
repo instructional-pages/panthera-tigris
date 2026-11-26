@@ -13,9 +13,26 @@ import re
 import sys
 from pathlib import Path
 
-ENTRY = re.compile(r"^- \*\*\[@([A-Za-z][\w-]*)\]\*\*(.*)$", re.M)
+ENTRY = re.compile(r"^- \*\*\[@([A-Za-z][\w-]*)\]\*\*(.*)$")
 CITE = re.compile(r"\[(@[^\]]+)\]")
 KEY = re.compile(r"^@([A-Za-z][\w-]*)$")
+
+
+def entries(sources: str) -> list[tuple[str, str]]:
+    """(key, text) for each source bullet; indented lines continue the bullet above."""
+    found = []
+    inside = False
+    for line in sources.splitlines():
+        m = ENTRY.match(line)
+        if m:
+            found.append((m.group(1), m.group(2)))
+            inside = True
+        elif inside and line.startswith((" ", "\t")) and line.strip():
+            key, text = found[-1]
+            found[-1] = (key, text + " " + line.strip())
+        else:
+            inside = False
+    return found
 
 
 def check(files: dict[str, str]) -> list[str]:
@@ -33,8 +50,7 @@ def check(files: dict[str, str]) -> list[str]:
         index = ""
 
     defined = {}
-    for m in ENTRY.finditer(sources):
-        key, rest = m.group(1), m.group(2)
+    for key, rest in entries(sources):
         if key in defined:
             errors.append(f"sources.md: @{key} is listed twice")
         defined[key] = rest

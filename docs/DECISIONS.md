@@ -66,3 +66,13 @@ Dated question, choice and why, newest last. Entries from 2026-11-15 come from t
 - **Question:** How is Claude's part in the research and writing shown?
 - **Choice:** The site and README will say the course was researched and written with Claude (AI), and the user reviews it. *Decided by Claude, pending review.*
 - **Why:** On re-checking the Usage Policy (effective 2026-11-12), it asks that AI-assisted work presented for others to rely on is properly attributed.
+
+## 2026-11-26: How the dossier cites and weighs sources
+- **Question:** How are claims tied to sources, and which sources count?
+- **Choice:** Every claim cites `[@Key]` entries in `docs/research/sources.md`, checked by `.local-ci`. Sources are ranked: peer-reviewed full text, then IUCN work, then abstracts, then institutional pages; press and encyclopedias are only for finding sources. Each entry records how it was read. Disagreements are recorded with each position and the course's proposed choice. *Decided by Claude, pending review.*
+- **Why:** The success criterion is that every fact traces to a source; a machine check keeps citations from breaking, and the read-level tells a reviewer how much weight a claim can carry.
+
+## 2026-11-26: Which subspecies taxonomy the course teaches
+- **Question:** IUCN's 2017 revision recognises two subspecies; a 2018 whole-genome study finds six living ones. Which does the course use?
+- **Choice:** Teach the disagreement. Name the six living populations (the units conservation is organised around) and present the two-subspecies view as IUCN's current formal classification, now under review, with the evidence for each. *Decided by Claude, pending review.*
+- **Why:** Neither view is settled, and how scientists draw the line is itself worth understanding.
