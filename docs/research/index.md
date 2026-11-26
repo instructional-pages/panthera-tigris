@@ -25,4 +25,4 @@ In the brief's lesson order, from the body outward.
 | 10 | Conservation: status, numbers, threats, recovery | [conservation](conservation.md) | first draft, for review |
 | 11 | Tigers and people: conflict and attacks | [people](people.md) | first draft, for review |
 | 12 | Trade in tiger parts: history, law, farms | [trade](trade.md) | first draft, for review |
-| 13 | Culture: history, myth, religion, art | culture | to write |
+| 13 | Culture: history, myth, religion, art | [culture](culture.md) | first draft, for review |
