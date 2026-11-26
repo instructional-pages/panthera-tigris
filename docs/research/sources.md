@@ -211,3 +211,24 @@ The two known big ones:
   genomic diversity and admixture history of captive tigers in the United States. *PNAS* 121,
   e2402924121. https://doi.org/10.1073/pnas.2402924121 — *full text* (via Europe PMC,
   PMC11441546).
+- **[@Nair2021]** Nair R., Dhee, Patil O., Surve N., Andheria A., Linnell J. D. C., Athreya V.
+  (2021). Sharing spaces and entanglements with big cats: the Warli and their Waghoba in
+  Maharashtra, India. *Frontiers in Conservation Science* 2, 683356.
+  https://doi.org/10.3389/fcosc.2021.683356 — *full text* (CC BY).
+- **[@Welch2016]** Welch P. B. (2016-10-10). The tiger within. *BiblioAsia* 12(3), National Library
+  Board, Singapore. https://biblioasia.nlb.gov.sg/vol-12/issue-3/oct-dec-2016/the-tiger-within/ —
+  *page*, read 2026-11-26. A magazine essay by an Asian art historian, with endnotes; fine for
+  motifs and well-known history, not for contested points.
+- **[@CMA1960]** Cleveland Museum of Art. *Durga Slaying Mahisha*, c. 1700–1710, Pahari kingdoms,
+  accession 1960.51. https://www.clevelandart.org/art/1960.51 — *page*, read 2026-11-26.
+- **[@PMA101270]** Philadelphia Museum of Art. *The Great Goddess as Ishwari, with Bhadragaura*,
+  c. 1700–1725, object 101270. https://philamuseum.org/collection/object/101270 — *page*, read
+  2026-11-26.
+- **[@Blake]** Blake W. "The Tyger", in *Songs of Innocence and of Experience* (R. Brimley Johnson,
+  London, 1901 edition). Project Gutenberg eBook #1934.
+  https://gutenberg.pglaf.org/1/9/3/1934/1934-0.txt — *full text*.
+- **[@Kipling]** Kipling R. *The Jungle Book*, "Mowgli's Brothers". Project Gutenberg eBook #236.
+  https://gutenberg.pglaf.org/2/3/236/236-0.txt — *section* (the opening chapter).
+- **[@NTCAProjectTiger]** National Tiger Conservation Authority, Government of India. About us
+  (Project Tiger, technical and financial support). https://ntca.gov.in/p/about-us — *page*, read
+  2026-11-26.
