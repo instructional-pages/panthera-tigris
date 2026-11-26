@@ -33,9 +33,8 @@ The two known big ones:
 - **Subspecies.** IUCN's Cat Classification Task Force recognises two (2017); a whole-genome study
   finds six living groups (2018). See [taxonomy](taxonomy.md).
 - **Population figures.** Counts change with methods as much as with tigers; the 2022 Red List
-  calls its estimate the first reasonable baseline. Covered in the conservation topic (not yet
-  written), from the Red List assessment itself (Goodrich et al. 2022,
-  https://www.iucnredlist.org/species/15955/214862019), which has not been read in full yet.
+  calls its estimate the first reasonably rigorous one, a baseline rather than a trend
+  [@Goodrich2022]. Covered in the conservation topic (not yet written).
 
 ## Entries
 
@@ -111,3 +110,47 @@ The two known big ones:
 - **[@Banks2015]** Banks M. S., Sprague W. W., Schmoll J., Parnell J. A., Love G. D. (2015). Why
   do animal eyes have pupils of different shapes? *Science Advances* 1, e1500391.
   https://doi.org/10.1126/sciadv.1500391 — *full text* (via Europe PMC, PMC4643806).
+- **[@Goodrich2022]** Goodrich J., Wibisono H., Miquelle D., Lynam A. J., Sanderson E., Chapman S.,
+  Gray T. N. E., Chanchani P., Harihar A. (2022). *Panthera tigris*. The IUCN Red List of
+  Threatened Species 2022: e.T15955A214862019.
+  https://doi.org/10.2305/IUCN.UK.2022-1.RLTS.T15955A214862019.en — *full text* (the assessment
+  PDF, from a copy hosted by the Nature Conservation Foundation, India:
+  https://www.ncf-india.org/publications/panthera-tigris-2; the Red List site blocks automated
+  fetches). Its Supplementary Information (estimates by country) is a separate file, not read.
+- **[@Sanderson2023]** Sanderson E. W., Miquelle D. G., Fisher K., et al. (2023). Range-wide
+  trends in tiger conservation landscapes, 2001–2020. *Frontiers in Conservation Science* 4,
+  1191280. https://doi.org/10.3389/fcosc.2023.1191280 — *full text* (CC BY).
+- **[@Karanth2004]** Karanth K. U., Nichols J. D., Kumar N. S., Link W. A., Hines J. E. (2004).
+  Tigers and their prey: predicting carnivore densities from prey abundance. *PNAS* 101(14),
+  4854–4858. https://doi.org/10.1073/pnas.0306210101 — *abstract*.
+- **[@Karanth2000]** Karanth K. U., Sunquist M. E. (2000). Behavioural correlates of predation by
+  tiger (*Panthera tigris*), leopard (*Panthera pardus*) and dhole (*Cuon alpinus*) in Nagarahole,
+  India. *Journal of Zoology* 250(2), 255–265.
+  https://doi.org/10.1111/j.1469-7998.2000.tb01076.x — *abstract* (from Crossref).
+- **[@Steinmetz2013]** Steinmetz R., Seuaturien N., Chutipong W. (2013). Tigers, leopards, and
+  dholes in a half-empty forest: assessing species interactions in a guild of threatened
+  carnivores. *Biological Conservation* 163, 68–78.
+  https://doi.org/10.1016/j.biocon.2012.12.016 — *abstract* (from Europe PMC).
+- **[@Harihar2011]** Harihar A., Pandav B., Goyal S. P. (2011). Responses of leopard *Panthera
+  pardus* to the recovery of a tiger *Panthera tigris* population. *Journal of Applied Ecology*
+  48(4), 806–814. https://doi.org/10.1111/j.1365-2664.2011.01981.x — *abstract* (from Europe PMC).
+- **[@Wang2009]** Wang S., Macdonald D. W. (2009). Feeding habits and niche partitioning in a
+  predator guild composed of tigers, leopards and dholes in a temperate ecosystem in central
+  Bhutan. *Journal of Zoology* 277(4), 275–283.
+  https://doi.org/10.1111/j.1469-7998.2008.00537.x — *abstract* (from Crossref).
+- **[@Krishnakumar2022]** Krishnakumar B., Nagarajan R., Selvan K. (2022). Diet composition
+  and prey preference of tiger, leopard, and dhole in Kalakkad-Mundanthurai Tiger Reserve,
+  southern Western Ghats, India. *Mammal Study* 47(2), 141–153.
+  https://doi.org/10.3106/ms2020-0058 — *abstract* (from Crossref).
+- **[@Liu2026]** Liu Y., Dodge S., Simcharoen A., Smith J. L. D., Ahearn S. C. (2026). Avoidance
+  dynamics in tiger-leopard coexistence: a time-geographic approach. *Movement Ecology* 14, 72.
+  https://doi.org/10.1186/s40462-026-00681-7 — *section* (abstract, introduction and methods,
+  via Europe PMC, PMC13673898).
+- **[@Kandel2025]** Kandel S. R., Panthi S., Shrestha B., Subedi N., Kadariya R. (2025). Habitat
+  overlap of tiger and leopard in Banke-Bardia Complex. *Ecology and Evolution* 15, e72592.
+  https://doi.org/10.1002/ece3.72592 — *section* (abstract and introduction, via Europe PMC,
+  PMC12670131).
+- **[@Carter2019]** Carter N. H., Levin S. A., Grimm V. (2019). Effects of human-induced prey
+  depletion on large carnivores in protected areas: lessons from modeling tiger populations in
+  stylized spatial scenarios. *Ecology and Evolution* 9, 11298–11313.
+  https://doi.org/10.1002/ece3.5632 — *abstract* (via Europe PMC, PMC6802045).
