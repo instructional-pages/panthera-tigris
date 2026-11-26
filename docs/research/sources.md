@@ -34,7 +34,7 @@ The two known big ones:
   finds six living groups (2018). See [taxonomy](taxonomy.md).
 - **Population figures.** Counts change with methods as much as with tigers; the 2022 Red List
   calls its estimate the first reasonably rigorous one, a baseline rather than a trend
-  [@Goodrich2022]. Covered in the conservation topic (not yet written).
+  [@Goodrich2022]. See [conservation](conservation.md).
 
 ## Entries
 
@@ -154,3 +154,22 @@ The two known big ones:
   depletion on large carnivores in protected areas: lessons from modeling tiger populations in
   stylized spatial scenarios. *Ecology and Evolution* 9, 11298–11313.
   https://doi.org/10.1002/ece3.5632 — *abstract* (via Europe PMC, PMC6802045).
+- **[@NTCA2023]** Qureshi Q., Jhala Y. V., Yadav S. P., Mallick A. (eds) (2023). *Status of
+  tigers, co-predators and prey in India, 2022* (summary). National Tiger Conservation Authority,
+  New Delhi, and Wildlife Institute of India, Dehradun. ISBN 81-85496-92-7.
+  https://ntca.gov.in/assets/uploads/Reports/AITM/status_of_tiger-copredators-2022.pdf —
+  *section* (the 10-page summary with the estimates table, from
+  https://conservewildcats.org/wp-content/uploads/sites/5/2023/08/India-IndiaStatusofTigers2022.pdf;
+  the full 494-page report not read). A government report: its methods are peer-reviewed in
+  earlier cycles, but the counting body is also the one reporting success.
+- **[@IUCN2026Nepal]** IUCN (2026-07-29). Tiger census: Nepal's tiger number increases to 429.
+  https://iucn.org/story/202607/tiger-census-nepals-tiger-number-increases-429 — *page*, read
+  2026-11-26. Reports the government's census; the technical report was not yet published.
+- **[@Duangchantrasiri2016]** Duangchantrasiri S., Umponjan M., Simcharoen S., et al. (2016).
+  Dynamics of a low-density tiger population in Southeast Asia in the context of improved law
+  enforcement. *Conservation Biology* 30(3), 639–648. https://doi.org/10.1111/cobi.12655 —
+  *abstract* (from Europe PMC).
+- **[@Chapron2008]** Chapron G., Miquelle D. G., Lambert A., Goodrich J. M., Legendre S., Clobert
+  J. (2008). The impact on tigers of poaching versus prey depletion. *Journal of Applied Ecology*
+  45(6), 1667–1674. https://doi.org/10.1111/j.1365-2664.2008.01538.x — *abstract* (from Europe
+  PMC).
