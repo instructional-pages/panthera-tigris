@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Checks for this repo, run by `local-ci`. Cheapest first.
+# Until the site exists, this checks the research dossier; typecheck, tests, build and
+# bundle size join when the Vite app is added.
+set -euo pipefail
+cd "$(dirname "$0")"
+
+python3 -m unittest discover -s tests -q
+python3 scripts/check_research.py docs/research
