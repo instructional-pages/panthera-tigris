@@ -8,3 +8,9 @@ trade in tiger parts). Every lesson ends with interactive, hands-on checks.
 Status: not built yet. See `docs/BRIEF.md`.
 
 License: MIT.
+
+## Develop
+
+`./.local-ci` runs the checks (`local-ci` runs it and posts the status to the PR). For now it
+checks the research dossier in `docs/research/`: every `[@Key]` citation resolves to an entry in
+`sources.md`, every source is cited, and `index.md` links every file.
