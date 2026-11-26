@@ -83,8 +83,8 @@ steep decline in Malaysia [@Goodrich2022].
 From the Red List, in order of the weight it gives them [@Goodrich2022]:
 
 1. **Hunting of tigers and their prey**: the main cause of decline since 1991, and the only threat
-   it scores as high impact. Tigers are poached for skins, bones, meat and tonics (covered in the
-   trade topic, still to write). In South-East Asia, snares and poison have emptied forests of
+   it scores as high impact. Tigers are poached for skins, bones, meat and tonics (see
+   [trade](trade.md)). In South-East Asia, snares and poison have emptied forests of
    tigers and prey alike. Poaching was the main cause of death of tigers studied in Russia.
 2. **Habitat loss and fragmentation**: forest turned into farms and plantations, logging,
    settlements, and roads and railways cutting through tiger land. Small, cut-off populations
