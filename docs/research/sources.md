@@ -76,3 +76,38 @@ The two known big ones:
 - **[@ADW]** Animal Diversity Web, University of Michigan. *Panthera tigris* (last updated
   2007-09-15; written largely by students). https://animaldiversity.org/accounts/Panthera_tigris/
   — *page*, read 2026-11-26. Lowest trust here: never the only source for a number on the site.
+- **[@Miller2013]** Miller C. S., Hebblewhite M., Petrunenko Y. K., et al. (2013). Estimating Amur
+  tiger (*Panthera tigris altaica*) kill rates and potential consumption rates using global
+  positioning system collars. *Journal of Mammalogy* 94(4), 845–855.
+  https://doi.org/10.1644/12-MAMM-A-209.1 — *full text* (from
+  https://www.umt.edu/ungulate-ecology-lab/files/miller2013jm.pdf).
+- **[@Hayward2012]** Hayward M. W., Jędrzejewski W., Jędrzejewska B. (2012). Prey preferences of
+  the tiger *Panthera tigris*. *Journal of Zoology* 286(3), 221–231.
+  https://doi.org/10.1111/j.1469-7998.2011.00871.x — *abstract* (from the Bangor University
+  research portal).
+- **[@Smith1989]** Smith J. L. D., McDougal C., Miquelle D. (1989). Scent marking in free-ranging
+  tigers, *Panthera tigris*. *Animal Behaviour* 37, 1–10.
+  https://doi.org/10.1016/0003-3472(89)90001-8 — *abstract* (from the University of Minnesota
+  research portal).
+- **[@Smith1993]** Smith J. L. D. (1993). The role of dispersal in structuring the Chitwan tiger
+  population. *Behaviour* 124(3–4), 165–195. https://doi.org/10.1163/156853993X00560 —
+  *abstract* (from the University of Minnesota research portal).
+- **[@Gour2013]** Gour D. S., Bhagavatula J., Bhavanishankar M., et al. (2013). Philopatry and
+  dispersal patterns in tiger (*Panthera tigris*). *PLoS ONE* 8(7), e66956.
+  https://doi.org/10.1371/journal.pone.0066956 — *abstract*.
+- **[@Liu2024]** Liu Y., Dodge S., Simcharoen A., Ahearn S. C., Smith J. L. D. (2024). Analyzing
+  tiger interaction and home range shifts using a time-geographic approach. *Movement Ecology*
+  12, 13. https://doi.org/10.1186/s40462-024-00454-0 — *full text* (via Europe PMC,
+  PMC10838465).
+- **[@Bergevin2012]** Bergevin C., Walsh E. J., McGee J., Shera C. A. (2012). Probing cochlear
+  tuning and tonotopy in the tiger using otoacoustic emissions. *Journal of Comparative
+  Physiology A* 198, 617–624. https://doi.org/10.1007/s00359-012-0734-1 — *full text* (authors'
+  manuscript, from
+  https://yorku.ca/professor/cberge/wp-content/uploads/sites/754/2023/02/2012bergevinJCP.pdf).
+- **[@Burger2008]** Burger B. V., Viviers M. Z., Bekker J. P., et al. (2008). Chemical
+  characterization of territorial marking fluid of male Bengal tiger, *Panthera tigris*.
+  *Journal of Chemical Ecology* 34(5), 659–671. https://doi.org/10.1007/s10886-008-9462-y —
+  *abstract*.
+- **[@Banks2015]** Banks M. S., Sprague W. W., Schmoll J., Parnell J. A., Love G. D. (2015). Why
+  do animal eyes have pupils of different shapes? *Science Advances* 1, e1500391.
+  https://doi.org/10.1126/sciadv.1500391 — *full text* (via Europe PMC, PMC4643806).
