@@ -173,3 +173,28 @@ The two known big ones:
   J. (2008). The impact on tigers of poaching versus prey depletion. *Journal of Applied Ecology*
   45(6), 1667–1674. https://doi.org/10.1111/j.1365-2664.2008.01538.x — *abstract* (from Europe
   PMC).
+- **[@Goodrich2010]** Goodrich J. M. (2010). Human–tiger conflict: a review and call for
+  comprehensive plans. *Integrative Zoology* 5(4), 300–312.
+  https://doi.org/10.1111/j.1749-4877.2010.00218.x — *abstract* (from Crossref).
+- **[@Inskip2009]** Inskip C., Zimmermann A. (2009). Human-felid conflict: a review of patterns and
+  priorities worldwide. *Oryx* 43(1), 18–34. https://doi.org/10.1017/S003060530899030X —
+  *full text* (Cambridge Core).
+- **[@Gurung2008]** Gurung B., Smith J. L. D., McDougal C., Karki J. B., Barlow A. (2008). Factors
+  associated with human-killing tigers in Chitwan National Park, Nepal. *Biological
+  Conservation* 141(12), 3069–3078. https://doi.org/10.1016/j.biocon.2008.09.013 — *abstract*
+  (from Europe PMC).
+- **[@Dhakal2026]** Dhakal B. K., Lamichhane B. R., Kandel S., Subedi N., Low M., Silwal T. (2026).
+  Tigers in the neighborhood: factors associated with fatal tiger attacks in a human-dominated
+  landscape, Nepal. *Ecology and Evolution* 16, e74206. https://doi.org/10.1002/ece3.74206 —
+  *full text* (via Europe PMC, PMC13478372).
+- **[@Shrestha2026]** Shrestha A., Pradhan N. M. B., Subedi N., et al. (2026). Human–tiger conflict
+  in and around Chitwan–Parsa National Parks: status, trends, contributing factors, mitigation
+  strategies, and community perceptions. *Ecology and Evolution* 16, e73920.
+  https://doi.org/10.1002/ece3.73920 — *full text* (via Europe PMC, PMC13373457).
+- **[@Struebig2018]** Struebig M. J., Linkie M., Deere N. J., et al. (2018). Addressing human-tiger
+  conflict using socio-ecological information on tolerance and risk. *Nature Communications* 9,
+  3455. https://doi.org/10.1038/s41467-018-05983-y — *full text* (via Europe PMC, PMC6110717).
+- **[@Thinley2018]** Thinley P., Rajaratnam R., Lassoie J. P., et al. (2018). The ecological benefit
+  of tigers (*Panthera tigris*) to farmers in reducing crop and livestock losses in the eastern
+  Himalayas. *Biological Conservation* 219, 119–125.
+  https://doi.org/10.1016/j.biocon.2018.01.015 — *abstract* (from Europe PMC).
