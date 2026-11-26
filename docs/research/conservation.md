@@ -92,7 +92,7 @@ From the Red List, in order of the weight it gives them [@Goodrich2022]:
    pseudomelanistic ("black") tigers for this reason (see [body](body.md)) [@Goodrich2022; @Sagar2021].
 3. **Conflict with people**: tigers that kill livestock or people are often killed in return. The
    Red List says this is commonly assumed to be important but has never been systematically
-   recorded. The people topic (still to write) covers it.
+   recorded. See [people](people.md).
 4. **Disease**: little studied. Canine distemper virus has killed tigers in Russia, and African
    swine fever threatens the wild pigs tigers eat in Russia and Indonesia.
 
