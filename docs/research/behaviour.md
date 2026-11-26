@@ -30,6 +30,10 @@
 - Adjacent males also avoid each other, until a female comes into heat near their boundary
   [@Liu2024].
 - A female's home range size depends on how much prey there is [@Liu2024].
+- Across the range, adult females' home ranges seldom overlap, while a male's range typically
+  overlaps those of 1–3 females, the usual pattern in solitary cats [@Goodrich2022].
+- Range size follows prey: females in Chitwan, Nepal, averaged about 20 km², in the Russian Far
+  East about 400 km² [@Goodrich2022]. See [ecology](ecology.md).
 
 ## Scent marking
 
@@ -57,12 +61,11 @@ From four years of watching radio-collared and known tigers in Chitwan, Nepal [@
 
 ## Open
 
-- **Home-range sizes.** Amur tiger ranges in Russia are reported as about 390 km² for resident
-  females and 1,385 km² for males (Goodrich et al. 2010, *Journal of Mammalogy* 91: 737–748),
-  and Indian ranges are far smaller; neither the paper nor a range-wide comparison has been read
-  directly. Simcharoen et al. 2014 (*Oryx* 48: 370–377) links female range size to prey in
+- **Home-range sizes, from the primary studies.** The female figures above come from the Red List,
+  which cites Goodrich et al. 2010 (*Journal of Mammalogy* 91: 737–748); that paper, reported to
+  give about 390 km² for resident females and 1,385 km² for males in Russia, has not been read
+  directly. Male ranges elsewhere need a source. Simcharoen et al. 2014 (*Oryx* 48: 370–377) links female range size to prey in
   Thailand: to read.
-- **How many females a male's territory covers**: no source read yet.
 - **Voice in use**: what each call (roar, chuff or "prusten", moan, grunt) means needs a source;
   the roar's physics is in [body](body.md).
 - **Activity patterns** (hours active, distances travelled per day): no source read yet.
