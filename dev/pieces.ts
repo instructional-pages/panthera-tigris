@@ -6,6 +6,8 @@ import "../src/style.css";
 import { type Estimate, estimateView, freshEstimate } from "../src/estimate-view.ts";
 import { type PickTask, freshPick, mapView, pickView } from "../src/map-view.ts";
 import { type OrderTask, freshOrder, orderView } from "../src/order-view.ts";
+import { type MatchTask, freshMatch, matchView, tigerView } from "../src/stripes-view.ts";
+import { h } from "../src/dom.ts";
 import { type Lesson, mount } from "../src/shell.ts";
 
 const years: Estimate = {
@@ -59,6 +61,27 @@ const pickState = freshPick(pick);
 
 const shades: Record<string, "solid" | "hatched" | "dim"> = { ind: "solid", npl: "solid", bgd: "hatched", mmr: "hatched", chn: "dim", tha: "dim" };
 
+const match: MatchTask = {
+  key: "match",
+  question: "Demo: which tiger is in each camera-trap photo?",
+  tigers: [
+    { name: "Tiger A", seed: 11 },
+    { name: "Tiger B", seed: 22 },
+    { name: "Tiger C", seed: 33 },
+  ],
+  photos: [
+    { tiger: 1, from: 0.1, to: 0.55 },
+    { tiger: 2, from: 0.5, to: 0.95 },
+    { tiger: 0, from: 0.3, to: 0.75 },
+  ],
+  explain: "Compare where stripes split and break into spots.",
+};
+const matchState = freshMatch(match);
+
+const coats = (["orange", "white", "pseudomelanistic"] as const).map((coat) =>
+  h("li", {}, tigerView({ key: `coat-${coat}`, seed: 7, coat, title: `Demo: ${coat} coat` }) as unknown as HTMLElement, h("span", { cls: "match-name" }, coat)),
+);
+
 const gallery: Lesson = {
   title: "Shared pieces",
   steps: [
@@ -66,12 +89,16 @@ const gallery: Lesson = {
     { text: [`**Ordering task**: ${morning.question}`] },
     { text: [`**Range map, pick task**: ${pick.question}`] },
     { text: ["**Range map, shaded and cropped**: solid, hatched and dim regions, and two marks placed by longitude and latitude."] },
+    { text: ["**Stripe renderer**: one seed in three coats (the same layout each time), and a camera-trap crop of the first."] },
+    { text: [`**Stripe matching task**: ${match.question}`] },
   ],
   sources: [],
   view: (i, ui) => {
     if (i < estimates.length) return [estimateView(estimates[i]!, states[i]!, ui)];
     if (i === estimates.length) return [orderView(morning, orderState, ui)];
     if (i === estimates.length + 1) return [pickView(pick, pickState, ui)];
+    if (i === estimates.length + 3) return [h("ul", { cls: "match-known" }, ...coats), h("div", { cls: "match-photo" }, tigerView({ key: "crop", seed: 7, title: "Demo: crop", crop: [0.2, 0.7] }) as unknown as HTMLElement)];
+    if (i === estimates.length + 4) return [matchView(match, matchState, ui)];
     return [
       mapView({
         key: "shaded",
@@ -89,6 +116,7 @@ const gallery: Lesson = {
     if (i < estimates.length) return states[i]!.locked ? null : "Lock in the estimate to go on.";
     if (i === estimates.length) return orderState.locked ? null : "Lock in the order to go on.";
     if (i === estimates.length + 1) return pickState.locked ? null : "Lock in your picks to go on.";
+    if (i === estimates.length + 4) return matchState.locked ? null : "Lock in your matches to go on.";
     return null;
   },
 };
