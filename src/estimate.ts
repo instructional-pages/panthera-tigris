@@ -11,6 +11,8 @@ export interface EstimateSpec {
   readonly steps: number;
   /** How far from the answer still counts as close, as a fraction of the slider's length. */
   readonly close: number;
+  /** "atMost": the answer is an upper bound (the sources give "at most"), so any guess at or under it is close. */
+  readonly bound?: "atMost";
 }
 
 export type EstimateVerdict =
@@ -51,6 +53,7 @@ export const stopOf = (spec: EstimateSpec, value: number): number => Math.round(
  * a ratio (at least 1) on a log scale, a difference on a linear one.
  */
 export function judgeEstimate(spec: EstimateSpec, guess: number): EstimateVerdict {
+  if (spec.bound === "atMost" && guess <= spec.answer) return { kind: "close" };
   if (Math.abs(position(spec, guess) - position(spec, spec.answer)) <= spec.close) return { kind: "close" };
   const kind = guess < spec.answer ? "low" : "high";
   const by = spec.scale === "log" ? Math.max(guess, spec.answer) / Math.min(guess, spec.answer) : Math.abs(guess - spec.answer);

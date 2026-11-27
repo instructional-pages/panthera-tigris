@@ -98,7 +98,7 @@ export function estimateView(e: Estimate, s: EstimateState, ui: Ui): HTMLElement
       "p",
       { cls: v.kind === "close" ? "feedback right" : "feedback wrong", attrs: { "aria-live": "polite" } },
       h("strong", {}, head),
-      `You said ${e.format(guess)}; the answer is ${e.format(e.answer)}. `,
+      `You said ${e.format(guess)}; the answer is ${e.bound === "atMost" ? "at most " : ""}${e.format(e.answer)}. `,
       ...ui.rich(e.explain),
     ),
   );

@@ -60,3 +60,11 @@ test("judgeEstimate on a linear scale reports the difference", () => {
   assert.deepEqual(judgeEstimate(cubs, 7), { kind: "high", by: 3 });
   assert.deepEqual(judgeEstimate(cubs, 1), { kind: "low", by: 3 });
 });
+
+test("judgeEstimate with an upper bound: anything at or under it is close", () => {
+  const share: EstimateSpec = { min: 0.1, max: 100, answer: 2, scale: "log", steps: 30, close: 0.1, bound: "atMost" };
+  assert.equal(judgeEstimate(share, 0.1).kind, "close");
+  assert.equal(judgeEstimate(share, 2).kind, "close");
+  assert.equal(judgeEstimate(share, 3.2).kind, "close"); // within the closeness above the bound
+  assert.equal(judgeEstimate(share, 10).kind, "high");
+});
