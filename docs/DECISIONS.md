@@ -76,3 +76,13 @@ Dated question, choice and why, newest last. Entries from 2026-11-15 come from t
 - **Question:** IUCN's 2017 revision recognises two subspecies; a 2018 whole-genome study finds six living ones. Which does the course use?
 - **Choice:** Teach the disagreement. Name the six living populations (the units conservation is organised around) and present the two-subspecies view as IUCN's current formal classification, now under review, with the evidence for each. *Decided by Claude, pending review.*
 - **Why:** Neither view is settled, and how scientists draw the line is itself worth understanding.
+
+## 2026-11-27: Bundle budget
+- **Question:** What gzipped size budget does `.local-ci` enforce?
+- **Choice:** 60 kB gzipped for the whole built site (HTML, JS, CSS and any bundled asset), measured by `scripts/check_bundle.py`. The skeleton is about 2 kB. Bundled photos will likely need the budget raised in its own decision when they arrive. *Decided by Claude, pending review.*
+- **Why:** A whole-download budget catches heavy assets, not just code; 60 kB leaves room for many lessons of plain DOM, Canvas and SVG while staying small.
+
+## 2026-11-27: A Content-Security-Policy on the page
+- **Question:** How is "no third-party requests at runtime" kept true?
+- **Choice:** `index.html` sets a CSP meta tag with `default-src 'self'`, so the browser itself refuses any request to another origin. *Decided by Claude, pending review.*
+- **Why:** A rule the browser enforces can't drift the way a review habit can.
