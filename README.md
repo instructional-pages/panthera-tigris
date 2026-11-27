@@ -5,12 +5,25 @@ about a tiger. It covers the science (taxonomy, evolution, body, senses, hunting
 cycle, subspecies, range, ecology, conservation) and the culture (history, myth, art, and the
 trade in tiger parts). Every lesson ends with interactive, hands-on checks.
 
-Status: research phase. The cited dossier is in `docs/research/` (start at its `index.md`); the site is not built yet. See `docs/BRIEF.md`.
+Status: research phase. The cited dossier is in `docs/research/` (start at its `index.md`); the
+site is a skeleton (one placeholder page) until the lesson outline is approved. See `docs/BRIEF.md`.
+Researched and written with Claude (AI), and reviewed by the author.
 
 License: MIT.
 
 ## Develop
 
-`./.local-ci` runs the checks (`local-ci` runs it and posts the status to the PR). For now it
-checks the research dossier in `docs/research/`: every `[@Key]` citation resolves to an entry in
-`sources.md`, every source is cited, and `index.md` links every file.
+TypeScript and Vite, plain DOM, no framework. Needs Node 22.18 or later (`node --test` runs the
+TypeScript tests directly).
+
+```sh
+npm install
+npm run dev        # local dev server
+npm test           # unit tests for the pure modules in src/
+npm run build      # static site in dist/
+```
+
+`./.local-ci` runs every check (`local-ci` runs it and posts the status to the PR): the research
+dossier's citations (every `[@Key]` resolves to `sources.md`, every source is cited, `index.md`
+links every file), then typecheck, unit tests, build, and the bundle budget: the whole built
+site must stay under 60 kB gzipped (`scripts/check_bundle.py`).
