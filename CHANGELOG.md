@@ -6,6 +6,22 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.14.0] - 2026-11-27
+
+### Added
+
+- Lesson 13, *The tiger in culture*: twelve steps. Junu, ten, lives beside villages with their own
+  ways of living with her. China's king of beasts, white tiger of the west and protector of
+  ordinary people; emperors, Buddhist art and Korea's tribute skins; Durga's great cat, often a
+  tiger; Waghoba, Bonbibi and the Dibang Valley's kinship; Sumatra's ancestral tigers; Tipu's
+  Tiger, Thai talismans and Singapore's bounty and brands; Blake and Kipling; Project Tiger and
+  the flagship; and how belief can support tolerance. Beliefs are told as the people's own
+  account.
+- A check: match five stories to the places they come from (six places, one left over), locked
+  in before any story is told.
+- A sandbox: a culture map of ten places, each with how people see the tiger, what they do, and
+  what the studies read found about tolerance there.
+
 ## [0.13.0] - 2026-11-27
 
 ### Added
@@ -207,6 +223,7 @@ All notable changes to this course are documented here. The format follows
 - A note on the page that the course is researched and written with Claude (AI).
 - The research dossier in `docs/research/`: 13 cited topics, from taxonomy to culture.
 
+[0.14.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.14.0
 [0.13.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.13.0
 [0.12.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.12.0
 [0.11.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.11.0

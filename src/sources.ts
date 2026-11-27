@@ -200,4 +200,32 @@ export const SOURCES: Readonly<Record<string, Source>> = {
     cite: "Armstrong E. E., Mooney J. A., Solari K. A. et al. (2024). Unraveling the genomic diversity and admixture history of captive tigers in the United States. PNAS 121, e2402924121.",
     url: "https://doi.org/10.1073/pnas.2402924121",
   },
+  Welch2016: {
+    cite: "Welch P. B. (2016). The tiger within. BiblioAsia 12(3), National Library Board, Singapore.",
+    url: "https://biblioasia.nlb.gov.sg/vol-12/issue-3/oct-dec-2016/the-tiger-within/",
+  },
+  PMA101270: {
+    cite: "Philadelphia Museum of Art. The Great Goddess as Ishwari, with Bhadragaura, c. 1700–1725, object 101270.",
+    url: "https://philamuseum.org/collection/object/101270",
+  },
+  CMA1960: {
+    cite: "Cleveland Museum of Art. Durga Slaying Mahisha, c. 1700–1710, Pahari kingdoms, accession 1960.51.",
+    url: "https://www.clevelandart.org/art/1960.51",
+  },
+  Nair2021: {
+    cite: "Nair R., Dhee, Patil O., Surve N., Andheria A., Linnell J. D. C., Athreya V. (2021). Sharing spaces and entanglements with big cats: the Warli and their Waghoba in Maharashtra, India. Frontiers in Conservation Science 2, 683356.",
+    url: "https://doi.org/10.3389/fcosc.2021.683356",
+  },
+  Blake: {
+    cite: "Blake W. \"The Tyger\", in Songs of Innocence and of Experience (R. Brimley Johnson, London, 1901 edition). Project Gutenberg eBook #1934.",
+    url: "https://gutenberg.pglaf.org/1/9/3/1934/1934-0.txt",
+  },
+  Kipling: {
+    cite: "Kipling R. The Jungle Book, \"Mowgli's Brothers\". Project Gutenberg eBook #236.",
+    url: "https://gutenberg.pglaf.org/2/3/236/236-0.txt",
+  },
+  NTCAProjectTiger: {
+    cite: "National Tiger Conservation Authority, Government of India. About us (Project Tiger).",
+    url: "https://ntca.gov.in/p/about-us",
+  },
 };

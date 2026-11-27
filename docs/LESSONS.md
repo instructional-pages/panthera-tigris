@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 12.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 13.
 
 ## How every lesson works
 
@@ -249,6 +249,10 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Check:** match each image or story to the place it comes from.
 - **Gap before building:** confirm the Blake and Kipling dates and spelling from the editions read;
   self-drawn or openly licensed images only.
+  *Built:* the editions read give no dates and no authoritative page confirmed them, so the
+  lesson gives none; Blake is quoted as the edition prints him ("Tiger"), with his own title,
+  "The Tyger", noted. The check matches five stories, told in words, to six places; no images
+  (see `DECISIONS.md`).
 - **Research:** [culture](research/culture.md).
 
 ### 14. Counting tigers, and saving them
