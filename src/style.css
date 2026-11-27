@@ -305,6 +305,62 @@ button[aria-pressed="true"] {
   top: -1.6rem;
 }
 
+/* The ordering task: move items with Up and Down, lock in, then each item's right place. */
+.order {
+  max-width: 34rem;
+}
+
+.order-question {
+  margin: 0 0 0.75rem;
+}
+
+.order-list {
+  list-style: decimal;
+  margin: 0 0 1rem;
+  padding-left: 1.75rem;
+}
+
+.order-item {
+  border-bottom: 1px solid var(--line);
+  padding: 0.4rem 0;
+}
+
+.order-item > * {
+  vertical-align: middle;
+}
+
+.order-text {
+  display: inline-block;
+  min-width: 14rem;
+  margin-right: 1rem;
+}
+
+.order-buttons {
+  display: inline-flex;
+  gap: 0.4rem;
+}
+
+.order-move {
+  padding: 0.15rem 0.6rem;
+}
+
+.order-verdict {
+  font-size: 0.875rem;
+}
+
+.order-item.right .order-verdict {
+  color: #fff;
+  font-weight: 600;
+}
+
+.order-item.wrong {
+  border-bottom-style: dashed;
+}
+
+.order-item.wrong .order-verdict {
+  color: var(--muted);
+}
+
 .sources {
   margin-top: 5rem;
   font-size: 0.8125rem;

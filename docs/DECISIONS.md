@@ -131,3 +131,8 @@ Dated question, choice and why, newest last. Entries from 2026-11-15 come from t
 - **Question:** How is a shared piece verified in a browser before any lesson uses it?
 - **Choice:** `dev/pieces.html` mounts the pieces with the real lesson shell and demo values, served by `npm run dev` and left out of the build. *Decided by Claude, pending review.*
 - **Why:** It checks the piece live without publishing demo values (which aren't facts) on the site.
+
+## 2026-11-27: How the ordering task is answered and judged
+- **Question:** Lessons 5, 7 and 15 ask the learner to put steps in order. How do they move items, where do the items start, and what does the reveal show?
+- **Choice:** Each item has Up and Down buttons (no dragging), so the task works from the keyboard and needs no pointer code; focus follows the moved item. Items start in an order the lesson sets, checked so that no item is already in its right place. After locking in, each item says "✓ right place" or "✗ belongs third", told apart by the glyph, the words, brightness and a solid or dashed line, and the right order is spelled out with the explanation. No count of right places, which would read as a score. *Decided by Claude, pending review.*
+- **Why:** Buttons are accessible for free; a fixed start keeps every visit the same and testable, and a start with nothing in place gives no part of the answer away.

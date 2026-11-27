@@ -4,6 +4,7 @@
 
 import "../src/style.css";
 import { type Estimate, estimateView, freshEstimate } from "../src/estimate-view.ts";
+import { type OrderTask, freshOrder, orderView } from "../src/order-view.ts";
 import { type Lesson, mount } from "../src/shell.ts";
 
 const years: Estimate = {
@@ -37,12 +38,27 @@ const cubs: Estimate = {
 const estimates = [years, cubs];
 const states = estimates.map(freshEstimate);
 
+const morning: OrderTask = {
+  key: "morning",
+  question: "Demo: put a morning in order.",
+  items: ["Wake up", "Get out of bed", "Make **coffee**", "Drink it"],
+  start: [1, 3, 0, 2],
+  explain: "Each step needs the one before it.",
+};
+const orderState = freshOrder(morning);
+
 const gallery: Lesson = {
   title: "Shared pieces",
-  steps: estimates.map((e) => ({ text: [`**Estimate slider**: ${e.question}`] })),
+  steps: [
+    ...estimates.map((e) => ({ text: [`**Estimate slider**: ${e.question}`] })),
+    { text: [`**Ordering task**: ${morning.question}`] },
+  ],
   sources: [],
-  view: (i, ui) => [estimateView(estimates[i]!, states[i]!, ui)],
-  hold: (i) => (states[i]!.locked ? null : "Lock in the estimate to go on."),
+  view: (i, ui) => [i < estimates.length ? estimateView(estimates[i]!, states[i]!, ui) : orderView(morning, orderState, ui)],
+  hold: (i) => {
+    if (i < estimates.length) return states[i]!.locked ? null : "Lock in the estimate to go on.";
+    return orderState.locked ? null : "Lock in the order to go on.";
+  },
 };
 
 mount(gallery);
