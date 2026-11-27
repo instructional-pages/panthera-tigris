@@ -1260,3 +1260,65 @@ footer {
 .range-lost {
   min-height: 3.2em;
 }
+
+/* Lesson 10: habitats, the model in words, the density square, the leopards. Tigers are solid
+   and bright; leopards hatched; made-up model values dashed. */
+.habitat-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.habitat-need {
+  margin: 0.75rem 0 0;
+  font-weight: 600;
+}
+
+.formula {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.formula-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  padding: 0.5rem 0.75rem;
+}
+
+.formula-op {
+  font-size: 1.25rem;
+}
+
+.share-bar.hatched {
+  background: repeating-linear-gradient(45deg, #8a8a8a 0 2px, transparent 2px 6px);
+  border: 1px solid #8a8a8a;
+  box-sizing: border-box;
+}
+
+.density-row {
+  display: grid;
+  grid-template-columns: minmax(12rem, 20rem) 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1rem 0;
+}
+
+.density-square {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.density-read p {
+  margin: 0 0 0.6rem;
+}
+
+.choice-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}

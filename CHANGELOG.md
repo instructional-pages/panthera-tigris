@@ -6,6 +6,23 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.11.0] - 2026-11-27
+
+### Added
+
+- Lesson 10, *Prey, rivals and the forest*: nine steps. Junu, seven, shares her range with a
+  leopard. Tigers as habitat generalists that need large prey; density per 100 km², from 15–19 in
+  Kaziranga and Corbett to 0.13–0.45 in Sikhote-Alin, drawn on a stretched scale; why prey sets the
+  number of tigers, as a simple model; India's 11 sites, where more prey meant more tigers; home
+  ranges from about 20 km² in Chitwan to 400 km² in the Russian Far East, to scale; and tigers,
+  leopards and dholes sharing the forest when prey is plentiful and splitting it when it is
+  scarce, with Rajaji's tigers and leopards before and after.
+- A check: given 20 deer per km², 1 in 10 taken a year and 50 kills a tiger, set how many tigers
+  100 km² feeds, before the model is run.
+- A sandbox: a prey slider that sets the model forest's tigers per 100 km² (drawn in a 10 km
+  square), the forest per tiger and what leopards do, with the model's made-up share spared (5%,
+  10% or 20%) to change, beside the measured densities.
+
 ## [0.10.0] - 2026-11-27
 
 ### Added
