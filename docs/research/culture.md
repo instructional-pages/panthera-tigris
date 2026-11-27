@@ -120,7 +120,9 @@ people's own account as reported by the source, not a claim that it is true.
 - **Bonbibi and the Sundarbans** in more depth (Jalais 2008 and later): not read.
 - **Colonial tiger hunting and bounties in India** (Rangarajan and others), and Jim Corbett's
   accounts of man-eaters: not read.
-- **Dates and spelling**: *Songs of Experience* (1794) and *The Jungle Book* (1894) are dated from
-  memory, not from the editions read, and the Blake edition read prints "Tiger" in the poem
-  itself; to confirm before the site quotes them.
+- **Dates**: *Songs of Experience* (1794) and *The Jungle Book* (1894) are dated from memory. The
+  editions read give no original dates, and the Blake Archive (a certificate error) and the British
+  Library (item pages not served) could not be read on 2026-11-27, so the site gives no dates.
+  **Spelling**, settled: the edition read prints "Tiger" in the poem and shows Blake's own page,
+  titled "The Tyger"; the site quotes the edition and names Blake's title.
 - **Japanese tiger art** (there were no wild tigers in Japan): to source.
