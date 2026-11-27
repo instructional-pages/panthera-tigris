@@ -55,6 +55,37 @@ export const SOURCES: Readonly<Record<string, Source>> = {
       "Sagar V., Kaelin C. B., Natesh M. et al. (2021). High frequency of an otherwise rare phenotype in a small and isolated tiger population. PNAS 118(39), e2025273118.",
     url: "https://doi.org/10.1073/pnas.2025273118",
   },
+  Klemuk2011: {
+    cite: "Klemuk S. A., Riede T., Walsh E. J., Titze I. R. (2011). Adapted to roar: functional morphology of tiger and lion vocal folds. PLoS ONE 6(11), e27029.",
+    url: "https://doi.org/10.1371/journal.pone.0027029",
+  },
+  Bergevin2012: {
+    cite:
+      "Bergevin C., Walsh E. J., McGee J., Shera C. A. (2012). Probing cochlear tuning and tonotopy in the tiger using otoacoustic emissions. Journal of Comparative Physiology A 198, 617–624.",
+    url: "https://doi.org/10.1007/s00359-012-0734-1",
+  },
+  Smith1989: {
+    cite: "Smith J. L. D., McDougal C., Miquelle D. (1989). Scent marking in free-ranging tigers, Panthera tigris. Animal Behaviour 37, 1–10.",
+    url: "https://doi.org/10.1016/0003-3472(89)90001-8",
+  },
+  Burger2008: {
+    cite:
+      "Burger B. V., Viviers M. Z., Bekker J. P. et al. (2008). Chemical characterization of territorial marking fluid of male Bengal tiger, Panthera tigris. Journal of Chemical Ecology 34(5), 659–671.",
+    url: "https://doi.org/10.1007/s10886-008-9462-y",
+  },
+  Banks2015: {
+    cite: "Banks M. S., Sprague W. W., Schmoll J., Parnell J. A., Love G. D. (2015). Why do animal eyes have pupils of different shapes? Science Advances 1, e1500391.",
+    url: "https://doi.org/10.1126/sciadv.1500391",
+  },
+  NCVS: {
+    cite: "National Center for Voice and Speech. Factors influencing fundamental frequency.",
+    url: "https://ncvs.org/tutorials/factors-influencing-fundamental-frequency/",
+  },
+  SydneyVoiceLab: {
+    cite:
+      "Sydney Voice Lab, University of Sydney (2025). Acoustic analysis normative data reference sheet, v4.0 (adult speaking pitch from Leung, Oates, Papp and Chan 2022, Journal of Voice 36(3)).",
+    url: "https://www.sydney.edu.au/content/dam/corporate/documents/faculty-of-medicine-and-health/research/research-centres/sydney-voice-lab/acoustic-analysis-normative-data-reference-sheet-20250416_v4.0-sydney-voice-lab.pdf.coredownload.pdf",
+  },
   SINZ: {
     cite: "Smithsonian's National Zoo & Conservation Biology Institute. Tiger.",
     url: "https://nationalzoo.si.edu/animals/tiger",

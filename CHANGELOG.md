@@ -6,6 +6,20 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-11-27
+
+### Added
+
+- Lesson 4, *Voice and senses*: eight steps. Junu, a year old, answers her mother's call in tall
+  grass. See a tiger's roar (83–246 Hz, average 158 Hz) on a pitch scale beside human speech, and
+  why the fat in its vocal folds is not there to lower the pitch; the cochleas of a house cat, a
+  person and a tiger drawn uncoiled to scale; scent marks as long-lasting chemical messages; and
+  why pupil shape follows hunting style and height.
+- The lesson's check: predict whether a tiger's ear is tuned more like a house cat's or a
+  person's, then see the answer and how it was measured.
+- A sandbox built on a study of 214 animals: choose a hunting style and a height and see which
+  pupil shape the data predicts, then place a house cat and a tiger.
+
 ## [0.4.0] - 2026-11-27
 
 ### Added

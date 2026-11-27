@@ -121,7 +121,17 @@ The two known big ones:
   *abstract*.
 - **[@Banks2015]** Banks M. S., Sprague W. W., Schmoll J., Parnell J. A., Love G. D. (2015). Why
   do animal eyes have pupils of different shapes? *Science Advances* 1, e1500391.
-  https://doi.org/10.1126/sciadv.1500391 — *full text* (via Europe PMC, PMC4643806).
+  https://doi.org/10.1126/sciadv.1500391 — *full text* (via Europe PMC, PMC4643806; re-read
+  2026-11-27 from the eScholarship copy,
+  https://escholarship.org/content/qt1zs03987/qt1zs03987_noSplash_e68429da71e9e73351e8f411e5ac7ecd.pdf;
+  the supplementary species list, table S1, not reached).
+- **[@NCVS]** National Center for Voice and Speech. Factors influencing fundamental frequency.
+  https://ncvs.org/tutorials/factors-influencing-fundamental-frequency/ — *page*, read 2026-11-27.
+- **[@SydneyVoiceLab]** Sydney Voice Lab, University of Sydney (2025). Acoustic analysis normative
+  data reference sheet, v4.0; adult speaking pitch from Leung Y., Oates J., Papp V., Chan S. P.
+  (2022), *Journal of Voice* 36(3).
+  https://www.sydney.edu.au/content/dam/corporate/documents/faculty-of-medicine-and-health/research/research-centres/sydney-voice-lab/acoustic-analysis-normative-data-reference-sheet-20250416_v4.0-sydney-voice-lab.pdf.coredownload.pdf
+  — *page*, read 2026-11-27.
 - **[@Goodrich2022]** Goodrich J., Wibisono H., Miquelle D., Lynam A. J., Sanderson E., Chapman S.,
   Gray T. N. E., Chanchani P., Harihar A. (2022). *Panthera tigris*. The IUCN Red List of
   Threatened Species 2022: e.T15955A214862019.

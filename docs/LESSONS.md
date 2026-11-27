@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 3.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 4.
 
 ## How every lesson works
 
@@ -88,6 +88,10 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
   whiskers or the tiger's own pupil shape. The brief's "change the light to compare tiger and prey
   vision" sandbox needs Fennell et al. 2019 read first; until then, this lesson uses only what is
   sourced.
+  *Built:* the gap is left out, not filled: colour vision, night vision and whiskers are not
+  taught, and the sandbox gives the tiger's predicted pupil but not its own (see `DECISIONS.md`).
+  Human speech on the pitch scale is drawn at two sources' averages; the check comes before the
+  answer's step.
 - **Research:** [senses](research/senses.md), [body](research/body.md) (voice).
 
 ### 5. Hunting
