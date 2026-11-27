@@ -11,7 +11,12 @@ years of tigers*, *The body: size, coat, stripes*, *Voice and senses*, *Hunting*
 *n* is at `?lesson=n`. See `docs/BRIEF.md`.
 Researched and written with Claude (AI), and reviewed by the author.
 
-License: MIT.
+License: MIT, for the code and text. The three photos in `src/photos/` keep their own licences,
+and each lesson credits the ones it shows (`src/photos.ts` lists them all):
+
+- A tiger in Chitwan National Park, by Supradai, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), resized ([source](https://commons.wikimedia.org/wiki/File:Royal_Bengal_Tiger_looking_at_me_while_photographing,_capture_at_Chitwan_National_Park_(cropped).jpg)).
+- A camera-trap photo of a wild tiger in Sumatra, by Arddu (Flickr), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), re-encoded ([source](https://commons.wikimedia.org/wiki/File:Wild_Sumatran_tiger.jpg)).
+- William Blake, "The Tyger", photograph by the Metropolitan Museum of Art, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), resized ([source](https://commons.wikimedia.org/wiki/File:Songs_of_Innocence_and_of_Experience-_The_Tyger_MET_DR384.jpg)).
 
 ## Develop
 
@@ -37,5 +42,5 @@ admin-0 countries (public domain) by `scripts/make_map.py`; download
 
 `./.local-ci` runs every check (`local-ci` runs it and posts the status to the PR): the research
 dossier's citations (every `[@Key]` resolves to `sources.md`, every source is cited, `index.md`
-links every file), then typecheck, unit tests, build, and the bundle budget: the whole built
-site must stay under 135 kB gzipped (`scripts/check_bundle.py`).
+links every file), then typecheck, unit tests, build, and the bundle budget: the built site's
+code must stay under 135 kB gzipped and its photos under 90 kB (`scripts/check_bundle.py`).

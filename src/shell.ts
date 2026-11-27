@@ -2,6 +2,8 @@
 // view, and the source list. A lesson supplies its content and draws its own view.
 
 import { citer, h, richText } from "./dom.ts";
+import { creditNodes } from "./photo-view.ts";
+import type { Photo } from "./photos.ts";
 import { SOURCES } from "./sources.ts";
 import { back, isFirst, isLast, label, next, start, type StepState } from "./steps.ts";
 
@@ -23,6 +25,8 @@ export interface Lesson {
   readonly steps: readonly { readonly text: readonly string[] }[];
   /** Every source key the lesson cites, in the order they are numbered. */
   readonly sources: readonly string[];
+  /** The photos the lesson shows, listed with their credits under the sources. */
+  readonly photos?: readonly Photo[];
   /** Called when the learner arrives on step `index` (also the first step, at mount). */
   enter?(index: number): void;
   /** The live view for step `index`. */
@@ -117,5 +121,8 @@ export function mount(lesson: Lesson, course?: Course): void {
       return h("li", { id: `src-${k}` }, `${s.cite} `, h("a", { href: s.url, attrs: { rel: "noreferrer" } }, s.url));
     }),
   );
+  const photos = lesson.photos ?? [];
+  el("pictures-section").hidden = photos.length === 0;
+  el("pictures").replaceChildren(...photos.map((p) => h("li", {}, `${p.title}: `, ...creditNodes(p))));
   go(step);
 }

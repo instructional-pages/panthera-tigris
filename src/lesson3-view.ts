@@ -30,6 +30,9 @@ import {
 import type { Lesson, Ui } from "./shell.ts";
 import { random } from "./stripes.ts";
 import { type MatchTask, DRAWING, freshMatch, matchView, tigerView } from "./stripes-view.ts";
+import { photoFigure } from "./photo-view.ts";
+import { PHOTOS } from "./photos.ts";
+import cameraTrapUrl from "./photos/sumatra-camera-trap.avif";
 
 const SVG = "http://www.w3.org/2000/svg";
 
@@ -140,6 +143,7 @@ function uniqueView(): HTMLElement[] {
 
 function cameraView(): HTMLElement[] {
   return [
+    photoFigure(PHOTOS.cameraTrap, cameraTrapUrl, 660, 458),
     h(
       "div",
       { cls: "coat-pair" },
@@ -369,6 +373,7 @@ export const lesson3: Lesson = {
   title: TITLE,
   steps: STEPS,
   sources: lessonSources(),
+  photos: [PHOTOS.cameraTrap],
   view(i, u) {
     ui = u;
     switch (STEPS[i]!.view) {
