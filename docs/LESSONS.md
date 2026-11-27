@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 6.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 7.
 
 ## How every lesson works
 
@@ -141,8 +141,11 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Sandbox:** a cohort model: follow a set of cubs through the stages with the survival figures,
   and compare daughters' and sons' fates.
 - **Check:** order the life stages; set a slider to how many of ten cubs reach two years.
-- **Gap before building:** litter size, birth interval and cub survival come from the
-  Smithsonian page only; read the primary studies (Kerley 2003, Smith & McDougal 1991) first.
+  *Built:* the gap is filled from Kerley et al. 2003 (abstract) and the Cat Specialist Group's
+  Chitwan figures; Smith & McDougal 1991 could not be reached. The slider asks about two years in
+  Chitwan (34% and 17% yearly deaths give about 5.5 of 10). Each check comes before its answer is
+  told. The map is a drawing; the sandbox's chances are the studies', and half daughters, half
+  sons is a model setting (see `DECISIONS.md`).
 - **Research:** [life-cycle](research/life-cycle.md).
 
 ### 8. How many kinds of tiger?

@@ -41,6 +41,15 @@ export const SOURCES: Readonly<Record<string, Source>> = {
     cite: "Smith J. L. D. (1993). The role of dispersal in structuring the Chitwan tiger population. Behaviour 124(3–4), 165–195.",
     url: "https://doi.org/10.1163/156853993X00560",
   },
+  Gour2013: {
+    cite: "Gour D. S., Bhagavatula J., Bhavanishankar M. et al. (2013). Philopatry and dispersal patterns in tiger (Panthera tigris). PLoS ONE 8(7), e66956.",
+    url: "https://doi.org/10.1371/journal.pone.0066956",
+  },
+  Kerley2003: {
+    cite:
+      "Kerley L. L., Goodrich J. M., Miquelle D. G., Smirnov E. N., Quigley H. B., Hornocker M. G. (2003). Reproductive parameters of wild female Amur (Siberian) tigers (Panthera tigris altaica). Journal of Mammalogy 84(1), 288–298.",
+    url: "https://doi.org/10.1644/1545-1542(2003)084%3C0288:RPOWFA%3E2.0.CO;2",
+  },
   Karanth1995: {
     cite:
       "Karanth K. U. (1995). Estimating tiger Panthera tigris populations from camera-trap data using capture–recapture models. Biological Conservation 71(3), 333–338.",

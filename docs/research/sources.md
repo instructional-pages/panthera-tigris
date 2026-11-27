@@ -69,7 +69,8 @@ The two known big ones:
   camera-trap data using capture–recapture models. *Biological Conservation* 71(3), 333–338.
   https://repository.ias.ac.in/89441 — *abstract*.
 - **[@CATSG]** IUCN SSC Cat Specialist Group. Tiger (*Panthera tigris*), species page.
-  https://www.catsg.org/living-species-tiger — *page*, read 2026-11-26.
+  https://www.catsg.org/living-species-tiger — *page*, read 2026-11-26; its reproduction section
+  read again 2026-11-27.
 - **[@CATSGLion]** IUCN SSC Cat Specialist Group. Lion (*Panthera leo*), species page.
   https://www.catsg.org/living-species-lions — *page*, read 2026-11-27.
 - **[@CATSGLeopard]** IUCN SSC Cat Specialist Group. Leopard (*Panthera pardus*), species page.
@@ -107,6 +108,11 @@ The two known big ones:
 - **[@Smith1993]** Smith J. L. D. (1993). The role of dispersal in structuring the Chitwan tiger
   population. *Behaviour* 124(3–4), 165–195. https://doi.org/10.1163/156853993X00560 —
   *abstract* (from the University of Minnesota research portal).
+- **[@Kerley2003]** Kerley L. L., Goodrich J. M., Miquelle D. G., Smirnov E. N., Quigley H. B.,
+  Hornocker M. G. (2003). Reproductive parameters of wild female Amur (Siberian) tigers (*Panthera
+  tigris altaica*). *Journal of Mammalogy* 84(1), 288–298.
+  https://doi.org/10.1644/1545-1542(2003)084%3C0288:RPOWFA%3E2.0.CO;2 — *abstract* (from the
+  publisher's page, academic.oup.com).
 - **[@Gour2013]** Gour D. S., Bhagavatula J., Bhavanishankar M., et al. (2013). Philopatry and
   dispersal patterns in tiger (*Panthera tigris*). *PLoS ONE* 8(7), e66956.
   https://doi.org/10.1371/journal.pone.0066956 — *abstract*.
