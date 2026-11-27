@@ -82,7 +82,7 @@ many of the same animals. Several studies show how they manage to live together:
   them [@Harihar2011; @Steinmetz2013]. These are not in conflict if the answer depends on how much
   prey there is. The course teaches it that way: with plenty of prey and dense cover, the three
   share the forest; when prey is scarce, the tiger wins and the others move or change diet. This
-  reading is the dossier's, *pending review*.
+  reading is the dossier's, approved by the owner on 2026-11-27.
 
 ## Open
 
