@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 7.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 8.
 
 ## How every lesson works
 
@@ -159,6 +159,10 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Sandbox:** set the threshold of difference that counts as "a subspecies" and watch the
   populations merge and split.
 - **Check:** put each living population in the two-subspecies scheme.
+  *Built:* the live view is a row of the nine named populations with each scheme's groups drawn
+  under it (the Malayan tiger has no name in the eight). The check comes before the two are
+  shown or told. Liu et al. 2018 is still read as an abstract only, so the sandbox's tree is a
+  model with made-up differences, ordered to match the sources, and says so (see `DECISIONS.md`).
 - **Research:** [taxonomy](research/taxonomy.md), [evolution](research/evolution.md).
 
 ### 9. Where tigers live
