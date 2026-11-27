@@ -413,3 +413,141 @@ footer {
     animation: none !important;
   }
 }
+
+/* The range map: outlines in SVG; regions told apart by brightness, hatching and dashes. */
+.map-figure {
+  margin: 0;
+}
+
+.map-figure figcaption {
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+.map-region {
+  fill: #141414;
+  stroke: #2e2e2e;
+  stroke-width: 0.75;
+  vector-effect: non-scaling-stroke;
+}
+
+.map-region.detail {
+  fill: #1f1f1f;
+  stroke: #555;
+}
+
+.map-region.solid {
+  fill: #c8c8c8;
+  stroke: #000;
+}
+
+.map-region.dim {
+  fill: #3a3a3a;
+}
+
+.map-hatch {
+  stroke: #9a9a9a;
+  stroke-width: 1.5;
+}
+
+.map-choice {
+  cursor: pointer;
+}
+
+.map-choice path,
+.map-choice .map-ring {
+  vector-effect: non-scaling-stroke;
+}
+
+.map-choice path {
+  fill: #2c2c2c;
+  stroke: #8a8a8a;
+}
+
+.map-choice:hover path {
+  fill: #3c3c3c;
+}
+
+.map-choice:focus {
+  outline: none;
+}
+
+.map-choice:focus-visible path,
+.map-choice:focus-visible .map-ring {
+  stroke: var(--focus);
+  stroke-width: 2.5;
+}
+
+.map-ring {
+  fill: none;
+  stroke: #8a8a8a;
+  stroke-width: 1;
+}
+
+.map-choice.picked path,
+.map-choice.found path {
+  fill: #e6e6e6;
+  stroke: #fff;
+}
+
+.map-choice.picked .map-ring,
+.map-choice.found .map-ring {
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.map-choice.missed path,
+.map-choice.missed .map-ring {
+  fill: #1f1f1f;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 4 3;
+}
+
+.map-choice.wrong path {
+  stroke: #8a8a8a;
+}
+
+.map-choice.found,
+.map-choice.missed,
+.map-choice.wrong,
+.map-choice.none {
+  cursor: default;
+}
+
+.map-label {
+  font-size: calc(17px * var(--u));
+  fill: #fff;
+  stroke: #000;
+  stroke-width: calc(2.5px * var(--u));
+  paint-order: stroke;
+  stroke-linejoin: round;
+}
+
+.map-label.wrong,
+.map-label.missed {
+  fill: var(--text);
+}
+
+.map-mark {
+  fill: #fff;
+  stroke: #000;
+}
+
+.pick-question {
+  margin: 0 0 0.75rem;
+}
+
+.pick-list {
+  color: var(--muted);
+  margin: 0.5rem 0 0.75rem;
+}
