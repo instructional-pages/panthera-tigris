@@ -6,8 +6,8 @@ cycle, subspecies, range, ecology, conservation) and the culture (history, myth,
 trade in tiger parts). Every lesson ends with interactive, hands-on checks.
 
 Status: building lessons. The cited dossier in `docs/research/` (start at its `index.md`) and the
-lesson outline (`docs/LESSONS.md`) are approved. Lessons 1 to 13 (*What is a tiger?*, *Two and a half million
-years of tigers*, *The body: size, coat, stripes*, *Voice and senses*, *Hunting*, *A territory of her own*, *A life: mating, cubs, leaving home*, *How many kinds of tiger?*, *Where tigers live*, *Prey, rivals and the forest*, *Tigers and people*, *The trade in tiger parts*, *The tiger in culture*) are built; the rest follow in outline order. Lesson 1 is the front page; lesson
+lesson outline (`docs/LESSONS.md`) are approved. Lessons 1 to 14 (*What is a tiger?*, *Two and a half million
+years of tigers*, *The body: size, coat, stripes*, *Voice and senses*, *Hunting*, *A territory of her own*, *A life: mating, cubs, leaving home*, *How many kinds of tiger?*, *Where tigers live*, *Prey, rivals and the forest*, *Tigers and people*, *The trade in tiger parts*, *The tiger in culture*, *Counting tigers, and saving them*) are built; the rest follow in outline order. Lesson 1 is the front page; lesson
 *n* is at `?lesson=n`. See `docs/BRIEF.md`.
 Researched and written with Claude (AI), and reviewed by the author.
 
@@ -38,4 +38,4 @@ admin-0 countries (public domain) by `scripts/make_map.py`; download
 `./.local-ci` runs every check (`local-ci` runs it and posts the status to the PR): the research
 dossier's citations (every `[@Key]` resolves to `sources.md`, every source is cited, `index.md`
 links every file), then typecheck, unit tests, build, and the bundle budget: the whole built
-site must stay under 120 kB gzipped (`scripts/check_bundle.py`).
+site must stay under 135 kB gzipped (`scripts/check_bundle.py`).

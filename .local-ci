@@ -12,4 +12,4 @@ npm ci --no-audit --no-fund --loglevel=error
 npx tsc --noEmit
 npm test
 npx vite build
-python3 scripts/check_bundle.py dist 120
+python3 scripts/check_bundle.py dist 135

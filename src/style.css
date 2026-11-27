@@ -1557,3 +1557,105 @@ footer {
   gap: 0.5rem;
   margin: 0.75rem 0;
 }
+
+/* Lesson 14: counts, the population model and the survey. Told apart by line style, marker
+   shape, hatching and labels, not hue. */
+
+.count-line {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 2;
+}
+
+.count-line.nepal {
+  stroke-dasharray: 6 4;
+}
+
+.count-range {
+  stroke: #8a8a8a;
+  stroke-width: 6;
+}
+
+.world-band {
+  fill: rgba(230, 230, 230, 0.12);
+  stroke: #bdbdbd;
+  stroke-dasharray: 3 3;
+}
+
+.goal-line {
+  stroke: #bdbdbd;
+  stroke-width: 1.5;
+  stroke-dasharray: 2 4;
+}
+
+.model-line {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 2;
+}
+
+.model-b {
+  stroke-dasharray: 7 4;
+}
+
+.model-c {
+  stroke-dasharray: 1 4;
+  stroke-linecap: round;
+}
+
+.survey-map {
+  max-width: 32rem;
+}
+
+.survey-ground {
+  fill: #141414;
+  stroke: #555;
+}
+
+.survey-camera {
+  fill: #000;
+  stroke: #bdbdbd;
+  stroke-width: 1.5;
+}
+
+.survey-missed {
+  fill: #8a8a8a;
+  font-size: 14px;
+}
+
+.photo-row {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 0.5rem;
+  padding: 0;
+}
+
+.photo-row li {
+  width: 6rem;
+}
+
+.small-photos li {
+  width: 4rem;
+}
+
+.photo-row .tiger {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.share-bar.bound {
+  border-right: 2px dashed #e6e6e6;
+}
+
+.model-slider {
+  width: 100%;
+  max-width: 28rem;
+  accent-color: #e6e6e6;
+}
+
+.photo-row > .tiger {
+  width: 12rem;
+}

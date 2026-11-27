@@ -228,4 +228,23 @@ export const SOURCES: Readonly<Record<string, Source>> = {
     cite: "National Tiger Conservation Authority, Government of India. About us (Project Tiger).",
     url: "https://ntca.gov.in/p/about-us",
   },
+  NTCA2023: {
+    cite:
+      "Qureshi Q., Jhala Y. V., Yadav S. P., Mallick A. (eds) (2023). Status of tigers, co-predators and prey in India, 2022 (summary). National Tiger Conservation Authority, New Delhi, and Wildlife Institute of India, Dehradun.",
+    url: "https://ntca.gov.in/assets/uploads/Reports/AITM/status_of_tiger-copredators-2022.pdf",
+  },
+  IUCN2026Nepal: {
+    cite: "IUCN (2026-07-29). Tiger census: Nepal's tiger number increases to 429.",
+    url: "https://iucn.org/story/202607/tiger-census-nepals-tiger-number-increases-429",
+  },
+  Duangchantrasiri2016: {
+    cite:
+      "Duangchantrasiri S., Umponjan M., Simcharoen S. et al. (2016). Dynamics of a low-density tiger population in Southeast Asia in the context of improved law enforcement. Conservation Biology 30(3), 639–648.",
+    url: "https://doi.org/10.1111/cobi.12655",
+  },
+  Chapron2008: {
+    cite:
+      "Chapron G., Miquelle D. G., Lambert A., Goodrich J. M., Legendre S., Clobert J. (2008). The impact on tigers of poaching versus prey depletion. Journal of Applied Ecology 45(6), 1667–1674.",
+    url: "https://doi.org/10.1111/j.1365-2664.2008.01538.x",
+  },
 };
