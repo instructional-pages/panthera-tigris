@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 11.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 12.
 
 ## How every lesson works
 
@@ -231,6 +231,10 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Live view:** the chain from poacher to buyer with the price at each step.
 - **Sandbox:** seizure data from 2000 to 2018 by year, country and part, filtered by the learner.
 - **Check:** set a slider to the poacher's share of the final price.
+  *Built:* the TRAFFIC report gives seizures by year (read from its chart), by country in two
+  periods and by part, but not crossed with one another, so the sandbox shows each on its own;
+  the poacher's share is "at most 2%", from two of the Red List's prices, and any guess at or
+  under it counts (see `DECISIONS.md`).
 - **Research:** [trade](research/trade.md).
 
 ### 13. The tiger in culture

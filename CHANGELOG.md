@@ -6,6 +6,22 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.13.0] - 2026-11-27
+
+### Added
+
+- Lesson 12, *The trade in tiger parts*: eleven steps. Junu, nine, has rangers remove a snare
+  near her range. Why tigers are bought (medicine, status, belief, meat) and where the demand is;
+  the prices along the chain from poacher to buyer; CITES and Appendix I; weak penalties; what
+  2,359 seized tigers show; captive tigers and the evidence against farms; and South Korea's ban.
+  Factual, never graphic.
+- A check: set a slider to the poacher's share of the final price, locked in before any price is
+  shown. The shared estimate slider gains an "at most" answer, for sources that give a bound.
+- A sandbox: TRAFFIC's seizure data, 2000–2018, by year (incidents or tigers, with or without the
+  2016 temple seizure), by country (yearly averages in 2000–2014 and 2015–2018) or by part.
+- The dossier's trade file gains the report's figures behind its totals, by year, country and
+  part.
+
 ## [0.12.0] - 2026-11-27
 
 ### Added
@@ -191,6 +207,7 @@ All notable changes to this course are documented here. The format follows
 - A note on the page that the course is researched and written with Claude (AI).
 - The research dossier in `docs/research/`: 13 cited topics, from taxonomy to culture.
 
+[0.13.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.13.0
 [0.12.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.12.0
 [0.11.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.11.0
 [0.10.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.10.0

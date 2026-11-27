@@ -188,4 +188,16 @@ export const SOURCES: Readonly<Record<string, Source>> = {
     cite: "Thinley P., Rajaratnam R., Lassoie J. P. et al. (2018). The ecological benefit of tigers (Panthera tigris) to farmers in reducing crop and livestock losses in the eastern Himalayas. Biological Conservation 219, 119–125.",
     url: "https://doi.org/10.1016/j.biocon.2018.01.015",
   },
+  Wong2019: {
+    cite: "Wong R., Krishnasamy K. (2019). Skin and Bones Unresolved: An Analysis of Tiger Seizures from 2000–2018. TRAFFIC, Petaling Jaya, Malaysia.",
+    url: "https://www.traffic.org/site/assets/files/12344/skin_and_bones_unresolved-web-1.pdf",
+  },
+  ElvesPowell2024: {
+    cite: "Elves-Powell J., Lee H., Axmacher J. C., Durant S. M. (2024). Turning the tide on big cat trade: expert opinion on trends and conservation lessons from the Republic of Korea. PLoS ONE 19(5), e0299783.",
+    url: "https://doi.org/10.1371/journal.pone.0299783",
+  },
+  Armstrong2024: {
+    cite: "Armstrong E. E., Mooney J. A., Solari K. A. et al. (2024). Unraveling the genomic diversity and admixture history of captive tigers in the United States. PNAS 121, e2402924121.",
+    url: "https://doi.org/10.1073/pnas.2402924121",
+  },
 };

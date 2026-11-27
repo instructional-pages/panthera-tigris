@@ -98,6 +98,77 @@ TRAFFIC, the wildlife-trade monitoring network, analysed tiger seizures from 200
   much greater.
 - Tigers were often trafficked alongside bear parts, ivory and rhino horn.
 
+### The figures behind the totals
+
+Read from the report's full text on 2026-11-27 [@Wong2019]. Its tiger counts are "equivalent
+tigers": parts are converted to the fewest whole tigers they could have come from, so counts can
+have decimals, and the report rounds totals up.
+
+**By year (Figure 2).** The report prints these only as labels on a chart, not in a table.
+Seizure incidents in tiger range countries (TRCs) and outside them, and tigers seized in all
+countries:
+
+| Year | Incidents in TRCs | Outside TRCs | Tigers |
+| --- | --- | --- | --- |
+| 2000 | 45 | 1 | 92 |
+| 2001 | 59 | 1 | 125 |
+| 2002 | 29 | 0 | 56 |
+| 2003 | 31 | 1 | 84 |
+| 2004 | 32 | 0 | 77 |
+| 2005 | 47 | 1 | 122 |
+| 2006 | 57 | 0 | 96 |
+| 2007 | 52 | 0 | 77 |
+| 2008 | 84 | 1 | 198 |
+| 2009 | 103 | 1 | 262 |
+| 2010 | 75 | 2 | 123 |
+| 2011 | 56 | 5 | 97 |
+| 2012 | 71 | 5 | 187 |
+| 2013 | 57 | 9 | 101 |
+| 2014 | 52 | 3 | 104 |
+| 2015 | 71 | 2 | 85 |
+| 2016 | 66 | 4 | 288 |
+| 2017 | 53 | 8 | 86 |
+| 2018 | 46 | 12 | 101 |
+
+The chart's labels are not tied to their series in the text layer, so each year's pair was
+assigned by size, the smaller being the incident count. The report's own totals check that
+assignment: incidents in TRCs sum to 1,086 and outside to 56 (its Table 4), and the tigers sum to
+2,361 against the report's 2,359 (the yearly labels are rounded up). The 2016 peak includes the
+single seizure of 187 captive tigers from a Thai temple.
+
+**By country, in two periods (Table 5, printed).** Seizures and tigers, 2000–2014 and 2015–2018:
+
+| Country | Seizures 2000–14 | Seizures 2015–18 | Tigers 2000–14 | Tigers 2015–18 |
+| --- | --- | --- | --- | --- |
+| Bangladesh | 22 | 11 | 38.8 | 12.6 |
+| Bhutan | 6 | 1 | 5 | 1 |
+| Cambodia | 3 | 2 | 7 | 1 |
+| China | 107 | 19 | 223.2 | 23.6 |
+| India | 379 | 84 | 527.6 | 98.2 |
+| Indonesia | 64 | 55 | 194 | 72.2 |
+| Lao PDR | 9 | not enough data | 39 | not enough data |
+| Malaysia | 43 | 10 | 94.4 | 8.8 |
+| Myanmar | 2 | 3 | 1.2 | 3 |
+| Nepal | 88 | 6 | 189.2 | 8.7 |
+| Russia | 28 | 6 | 92.9 | 15 |
+| Thailand | 39 | 10 | 151 | 218 |
+| Viet Nam | 60 | 29 | 163.1 | 53.2 |
+| Outside TRCs | 30 | 26 | 74 | 44.2 |
+
+Nepal recorded no seizures from 2016 onwards, which the report links, possibly, to its Zero
+Poaching initiative. Thailand's 2015–2018 rise is mostly the temple seizure.
+
+**By part (Figure 4).** Equivalent tigers per kind of item, 2000–2018: skins 1,099 (40%), bones
+535 (19%), carcasses 416 (15%), live tigers 382 (14%), claws and teeth 215 (8%), other parts
+about 4% (unlabelled). Bones and claws-and-teeth are read from the chart's stacking order, which
+follows its legend. The report warns these must not be added up: one tiger yields several kinds
+of item, so it can be counted under more than one (except live tigers and carcasses).
+
+**Captive and wild since 2016.** From 2016 to 2018, live tigers and carcasses were close to half
+of all tigers seized each year (51.0% in 2017, 49.7% in 2018). The 5.5% figure counts 216 tigers
+in 152 seizures from 2016 to 2018, leaving out those known or suspected to be captive, against
+the 2016 official wild population; it assumes each of those came from the wild.
+
 ## Farms and captive tigers
 
 - **How many.** There are an estimated 15,000–20,000 captive tigers worldwide, at least five times
