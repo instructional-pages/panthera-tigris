@@ -70,6 +70,18 @@ The two known big ones:
   https://repository.ias.ac.in/89441 — *abstract*.
 - **[@CATSG]** IUCN SSC Cat Specialist Group. Tiger (*Panthera tigris*), species page.
   https://www.catsg.org/living-species-tiger — *page*, read 2026-11-26.
+- **[@CATSGLion]** IUCN SSC Cat Specialist Group. Lion (*Panthera leo*), species page.
+  https://www.catsg.org/living-species-lions — *page*, read 2026-11-27.
+- **[@CATSGLeopard]** IUCN SSC Cat Specialist Group. Leopard (*Panthera pardus*), species page.
+  https://www.catsg.org/living-species-leopard — *page*, read 2026-11-27.
+- **[@CATSGJaguar]** IUCN SSC Cat Specialist Group. Jaguar (*Panthera onca*), species page.
+  https://www.catsg.org/living-species-jaguar — *page*, read 2026-11-27.
+- **[@CATSGSnowLeopard]** IUCN SSC Cat Specialist Group. Snow leopard (*Panthera uncia*), species page.
+  https://www.catsg.org/living-species-snowleopard — *page*, read 2026-11-27.
+- **[@CATSGCloudedLeopard]** IUCN SSC Cat Specialist Group. Mainland clouded leopard (*Neofelis nebulosa*), species page.
+  https://www.catsg.org/living-species-cloudedleopard — *page*, read 2026-11-27.
+- **[@CATSGSundaCloudedLeopard]** IUCN SSC Cat Specialist Group. Sunda clouded leopard (*Neofelis diardi*), species page.
+  https://www.catsg.org/living-species-sundacloudedleopard — *page*, read 2026-11-27.
 - **[@SINZ]** Smithsonian's National Zoo & Conservation Biology Institute. Tiger.
   https://nationalzoo.si.edu/animals/tiger — *page*, read 2026-11-26.
 - **[@ADW]** Animal Diversity Web, University of Michigan. *Panthera tigris* (last updated

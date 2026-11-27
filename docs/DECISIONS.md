@@ -106,3 +106,18 @@ Dated question, choice and why, newest last. Entries from 2026-11-15 come from t
 - **Question:** May the repo become public and the site be published on GitHub Pages?
 - **Choice:** Yes, once the course is built and an audit of everything that becomes visible (commits with author and committer emails, tags, PR refs, PR and issue text) finds no secrets, personal paths or email other than the noreply one. Any finding stops it for the owner to decide. Approved by the owner on 2026-11-27.
 - **Why:** Making a repo public can't be undone for anyone who has already seen it.
+
+## 2026-11-27: Lesson 1 puts its check before its sandbox
+- **Question:** The outline ends each lesson with a sandbox, then the check. In lesson 1 the sandbox (grouping cats and seeing which groups are branches) would show where the tiger and snow leopard sit, which is the check's answer. Which comes first?
+- **Choice:** The check comes first in lesson 1, and Next stays disabled until it is answered; the sandbox ends the lesson. Before the check, the tree shows *Panthera*'s five species without their inner forks. *Decided by Claude, pending review.*
+- **Why:** Predict, then reveal: a prediction made after the answer has been shown checks nothing.
+
+## 2026-11-27: How facts are cited on the site
+- **Question:** "Every fact on screen links to its source in the dossier": how, while the repo is private?
+- **Choice:** Each fact carries the dossier's `[@Key]` marker in the source text and is drawn as a numbered superscript linking to a source list at the foot of the lesson (author, year, title, link to the original). `src/sources.ts` holds the entries the site uses; a unit test checks each key and link against `docs/research/sources.md`. *Decided by Claude, pending review.*
+- **Why:** Links into a private repo would be dead for readers; the original sources stay valid, and the shared key keeps site and dossier tied together. Links are navigation, not runtime requests.
+
+## 2026-11-27: Lesson 1's sandbox traits and tree
+- **Question:** Which traits does the sandbox sort cats by, and how is the tree drawn where the dossier is silent?
+- **Choice:** Four traits, all from the Cat Specialist Group's species pages (added to the dossier): spots or rosettes, can weigh over 100 kg, lives wild in Asia, and *Panthera* in the name. Roaring is left out because the pages describe it for only two of the seven cats. Lion, leopard and jaguar share one branch without inner forks, and the sandbox says "the tree can't say" for groups that split it. The tree is drawn as nested lists with branch lines, not a canvas. *Decided by Claude, pending review.*
+- **Why:** Only sourced traits go on the site, and the tree mustn't claim forks the dossier hasn't read (the Davis et al. abstract was unreachable). Nested lists are keyboard- and screen-reader-friendly for free and cost no drawing code.

@@ -4,22 +4,32 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:" />
-    <title>Panthera tigris: a course about the tiger</title>
+    <title>What is a tiger? · Panthera tigris: a course about the tiger</title>
   </head>
   <body>
     <main>
-      <h1>Panthera tigris</h1>
-      <p class="lede">A course about the tiger, in science and culture.</p>
-      <section class="steps" aria-labelledby="step-label">
-        <p id="step-label" class="step-label" aria-live="polite"></p>
-        <p id="step-text" class="step-text"></p>
-        <div class="nav">
-          <button type="button" id="back">Back</button>
-          <button type="button" id="next">Next</button>
-        </div>
+      <header>
+        <p class="course">Panthera tigris · a course about the tiger, in science and culture</p>
+        <h1 id="lesson-title"></h1>
+      </header>
+      <div class="lesson">
+        <section class="steps" aria-labelledby="step-label">
+          <p id="step-label" class="step-label" aria-live="polite"></p>
+          <div id="step-text" class="step-text"></div>
+          <div class="nav">
+            <button type="button" id="back">Back</button>
+            <button type="button" id="next">Next</button>
+          </div>
+          <p id="nav-hint" class="hint" aria-live="polite"></p>
+        </section>
+        <section id="view" class="view" aria-label="Live view"></section>
+      </div>
+      <section class="sources" aria-labelledby="sources-title">
+        <h2 id="sources-title">Sources</h2>
+        <ol id="sources"></ol>
       </section>
       <footer>
-        <p>Researched and written with Claude (AI), and reviewed by the author. MIT license.</p>
+        <p>Researched and written with Claude (AI), and reviewed by the author. Junu is fictional. MIT license.</p>
       </footer>
     </main>
     <script type="module" src="/src/main.ts"></script>
