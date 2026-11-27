@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lesson 1.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 and 2.
 
 ## How every lesson works
 
@@ -52,6 +52,9 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Sandbox:** a family-line model: pick a population size, run generations, watch maternal lines
   die out until all survivors share one ancestor; a bottleneck makes it happen fast.
 - **Check:** set a slider to when the last common ancestor of living tigers lived.
+  *Built:* the check comes once mtDNA is taught and before the time line shows the date, so
+  the steps after it reveal the bottleneck and Toba; the sandbox ends the lesson (see
+  `DECISIONS.md`).
 - **Research:** [evolution](research/evolution.md).
 
 ### 3. The body: size, coat, stripes

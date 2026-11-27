@@ -31,6 +31,15 @@ export interface Lesson {
   hold?(index: number): string | null;
 }
 
+/** Where the lesson sits in the course, for the list of lessons and the link to the next one. */
+export interface Course {
+  /** This lesson's number, 1-based. */
+  readonly lesson: number;
+  readonly titles: readonly string[];
+  /** The address of lesson `n`. */
+  readonly href: (n: number) => string;
+}
+
 const el = (id: string): HTMLElement => {
   const found = document.getElementById(id);
   if (!found) throw new Error(`missing #${id}`);
@@ -38,13 +47,14 @@ const el = (id: string): HTMLElement => {
 };
 
 /** Draws `lesson` into the page's skeleton (index.html) and wires Back and Next. */
-export function mount(lesson: Lesson): void {
+export function mount(lesson: Lesson, course?: Course): void {
   const labelEl = el("step-label");
   const textEl = el("step-text");
   const viewEl = el("view");
   const hintEl = el("nav-hint");
   const backBtn = el("back") as HTMLButtonElement;
   const nextBtn = el("next") as HTMLButtonElement;
+  const nextLessonEl = el("next-lesson");
   backBtn.dataset.key = "back";
   nextBtn.dataset.key = "next";
 
@@ -68,6 +78,10 @@ export function mount(lesson: Lesson): void {
     backBtn.disabled = isFirst(step);
     nextBtn.disabled = isLast(step) || held !== null;
     hintEl.textContent = held ?? "";
+    const after = course && course.lesson < course.titles.length ? course.lesson + 1 : null;
+    nextLessonEl.replaceChildren(
+      ...(after && isLast(step) ? ["Next lesson: ", h("a", { href: course!.href(after) }, course!.titles[after - 1]!)] : []),
+    );
 
     // Redrawing replaces the focused element; put focus back on its replacement.
     const again = focusKey ? document.querySelector<HTMLElement>(`[data-key="${CSS.escape(focusKey)}"]`) : null;
@@ -86,6 +100,17 @@ export function mount(lesson: Lesson): void {
   nextBtn.addEventListener("click", () => go(next(step)));
 
   el("lesson-title").textContent = lesson.title;
+  document.title = `${lesson.title.replace(/^\d+\. /, "")} · Panthera tigris: a course about the tiger`;
+  if (course)
+    el("lesson-nav").replaceChildren(
+      h(
+        "ol",
+        {},
+        ...course.titles.map((t, i) =>
+          h("li", {}, i + 1 === course.lesson ? h("a", { attrs: { "aria-current": "page" } }, t) : h("a", { href: course.href(i + 1) }, t)),
+        ),
+      ),
+    );
   el("sources").replaceChildren(
     ...lesson.sources.map((k) => {
       const s = SOURCES[k]!;
