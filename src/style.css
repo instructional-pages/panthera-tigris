@@ -551,3 +551,125 @@ footer {
   color: var(--muted);
   margin: 0.5rem 0 0.75rem;
 }
+
+/* The stripe renderer: a self-made side view; the coat's colours are the animal's, not a code. */
+.tiger {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tiger-coat {
+  fill: #c8742a;
+}
+
+.tiger-tail {
+  fill: none;
+  stroke: #c8742a;
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.tiger-belly {
+  fill: #e8e0d0;
+}
+
+.tiger-stripe {
+  fill: #111;
+}
+
+.tiger-outline {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.6;
+}
+
+.tiger-eye {
+  fill: #111;
+}
+
+.coat-white .tiger-coat {
+  fill: #e6e2da;
+}
+
+.coat-white .tiger-tail {
+  stroke: #e6e2da;
+}
+
+.coat-white .tiger-belly {
+  fill: #fff;
+}
+
+.coat-white .tiger-stripe {
+  fill: #4a3a2a;
+}
+
+.tiger.photo {
+  border: 1px solid var(--line);
+}
+
+/* The matching task: pick who is in each photo, lock in, then each photo's verdict. */
+.match {
+  max-width: 44rem;
+}
+
+.match-question {
+  margin: 0 0 0.75rem;
+}
+
+.match-known {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+
+.match-name {
+  display: block;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.match-photos {
+  margin: 0 0 1rem;
+  padding-left: 1.75rem;
+}
+
+.match-photo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.match-photo .tiger {
+  width: 8rem;
+  flex: none;
+}
+
+.match-buttons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.match-verdict {
+  font-size: 0.875rem;
+}
+
+.match-photo.right .match-verdict {
+  color: #fff;
+  font-weight: 600;
+}
+
+.match-photo.wrong {
+  border-bottom-style: dashed;
+}
+
+.match-photo.wrong .match-verdict {
+  color: var(--muted);
+}
