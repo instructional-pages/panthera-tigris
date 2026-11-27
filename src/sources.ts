@@ -99,6 +99,16 @@ export const SOURCES: Readonly<Record<string, Source>> = {
     cite: "Bhandari S., Chalise M. K., Pokharel C. P. (2017). Diet of Bengal tigers (Panthera tigris tigris) in Chitwan National Park, Nepal. European Journal of Ecology 3(1), 80–84.",
     url: "https://doi.org/10.1515/eje-2017-0008",
   },
+  Liu2024: {
+    cite:
+      "Liu Y., Dodge S., Simcharoen A., Ahearn S. C., Smith J. L. D. (2024). Analyzing tiger interaction and home range shifts using a time-geographic approach. Movement Ecology 12, 13.",
+    url: "https://doi.org/10.1186/s40462-024-00454-0",
+  },
+  Goodrich2022: {
+    cite:
+      "Goodrich J., Wibisono H., Miquelle D. et al. (2022). Panthera tigris. The IUCN Red List of Threatened Species 2022: e.T15955A214862019.",
+    url: "https://doi.org/10.2305/IUCN.UK.2022-1.RLTS.T15955A214862019.en",
+  },
   SINZ: {
     cite: "Smithsonian's National Zoo & Conservation Biology Institute. Tiger.",
     url: "https://nationalzoo.si.edu/animals/tiger",

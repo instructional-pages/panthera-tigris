@@ -982,3 +982,92 @@ footer {
   stroke-width: 4px;
   stroke-linejoin: round;
 }
+
+/* Lesson 6: the map of ranges. Ranges, edges and marks are told apart by brightness,
+   hatching, dashes, dot style and labels, not hue. */
+.terr-cell {
+  fill: #111;
+}
+
+.terr-cell.junu {
+  fill: #262626;
+}
+
+.terr-cell.edge {
+  fill: #3a3a3a;
+}
+
+.terr-cell.crossing {
+  fill: url(#terr-hatch);
+}
+
+.terr-line {
+  stroke: #8a8a8a;
+  stroke-width: 2;
+}
+
+.route {
+  fill: none;
+  stroke: #bdbdbd;
+  stroke-width: 2;
+  stroke-dasharray: 1 5;
+  stroke-linecap: round;
+}
+
+.male-range {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 1.5;
+  stroke-dasharray: 7 4;
+}
+
+.odour {
+  fill: #fff;
+  pointer-events: none;
+}
+
+.tiger-at {
+  fill: #000;
+  stroke: var(--focus);
+  stroke-width: 2.5;
+}
+
+.tiger-at-label,
+.check-mark-label {
+  fill: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.check-mark {
+  fill: #000;
+  stroke: #fff;
+  stroke-width: 2.5;
+  pointer-events: none;
+}
+
+.check-mark.wrong {
+  stroke: #8a8a8a;
+  stroke-dasharray: 3 3;
+}
+
+.map-cursor {
+  fill: none;
+  stroke: var(--focus);
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+.map-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.terr-map:focus {
+  outline: none;
+}
+
+.terr-map:focus-visible {
+  outline: 2px solid var(--focus);
+}
