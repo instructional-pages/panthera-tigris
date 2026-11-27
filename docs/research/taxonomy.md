@@ -80,7 +80,7 @@ Wozencraft (2005), as listed by Kitchener et al., recognised eight subspecies [@
   living (whole genomes, 2018 [@Liu2018]; and Luo et al.'s mtDNA work [@Luo2004]). The 2018 study
   is the more recent and uses far more of the genome, but the 2017 revision is the IUCN's formal
   classification, and IUCN says it is under review [@CATSG].
-  - *Proposed for the course (pending review):* teach the disagreement as a lesson in how
+  - *Chosen for the course (approved by the owner, 2026-11-27):* teach the disagreement as a lesson in how
     science draws lines. Use the six living groups as names the learner will meet (they are the
     populations conservation work is organised around), and show the two-subspecies view as the
     current formal IUCN classification, with the evidence for each.

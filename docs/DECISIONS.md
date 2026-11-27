@@ -59,32 +59,32 @@ Dated question, choice and why, newest last. Entries from 2026-11-15 come from t
 
 ## 2026-11-26: Repo visibility at creation
 - **Question:** Should the repo be public from the first commit (org rule) or private?
-- **Choice:** Private for now. Making it public waits for the user's go-ahead and an audit of everything that would become visible. *Decided by Claude, pending review.*
+- **Choice:** Private for now. Making it public waits for the user's go-ahead and an audit of everything that would become visible. *Decided by Claude; approved by the owner on 2026-11-27.*
 - **Why:** The permission check refused to create a public repo without the user's approval. Making a repo public can't be undone, so the user should make that call.
 
 ## 2026-11-26: Credit for AI-assisted content
 - **Question:** How is Claude's part in the research and writing shown?
-- **Choice:** The site and README will say the course was researched and written with Claude (AI), and the user reviews it. *Decided by Claude, pending review.*
+- **Choice:** The site and README will say the course was researched and written with Claude (AI), and the user reviews it. *Decided by Claude; approved by the owner on 2026-11-27.*
 - **Why:** On re-checking the Usage Policy (effective 2026-11-12), it asks that AI-assisted work presented for others to rely on is properly attributed.
 
 ## 2026-11-26: How the dossier cites and weighs sources
 - **Question:** How are claims tied to sources, and which sources count?
-- **Choice:** Every claim cites `[@Key]` entries in `docs/research/sources.md`, checked by `.local-ci`. Sources are ranked: peer-reviewed full text, then IUCN work, then abstracts, then institutional pages; press and encyclopedias are only for finding sources. Each entry records how it was read. Disagreements are recorded with each position and the course's proposed choice. *Decided by Claude, pending review.*
+- **Choice:** Every claim cites `[@Key]` entries in `docs/research/sources.md`, checked by `.local-ci`. Sources are ranked: peer-reviewed full text, then IUCN work, then abstracts, then institutional pages; press and encyclopedias are only for finding sources. Each entry records how it was read. Disagreements are recorded with each position and the course's proposed choice. *Decided by Claude; approved by the owner on 2026-11-27.*
 - **Why:** The success criterion is that every fact traces to a source; a machine check keeps citations from breaking, and the read-level tells a reviewer how much weight a claim can carry.
 
 ## 2026-11-26: Which subspecies taxonomy the course teaches
 - **Question:** IUCN's 2017 revision recognises two subspecies; a 2018 whole-genome study finds six living ones. Which does the course use?
-- **Choice:** Teach the disagreement. Name the six living populations (the units conservation is organised around) and present the two-subspecies view as IUCN's current formal classification, now under review, with the evidence for each. *Decided by Claude, pending review.*
+- **Choice:** Teach the disagreement. Name the six living populations (the units conservation is organised around) and present the two-subspecies view as IUCN's current formal classification, now under review, with the evidence for each. *Decided by Claude; approved by the owner on 2026-11-27.*
 - **Why:** Neither view is settled, and how scientists draw the line is itself worth understanding.
 
 ## 2026-11-27: Bundle budget
 - **Question:** What gzipped size budget does `.local-ci` enforce?
-- **Choice:** 60 kB gzipped for the whole built site (HTML, JS, CSS and any bundled asset), measured by `scripts/check_bundle.py`. The skeleton is about 2 kB. Bundled photos will likely need the budget raised in its own decision when they arrive. *Decided by Claude, pending review.*
+- **Choice:** 60 kB gzipped for the whole built site (HTML, JS, CSS and any bundled asset), measured by `scripts/check_bundle.py`. The skeleton is about 2 kB. Bundled photos will likely need the budget raised in its own decision when they arrive. *Decided by Claude; approved by the owner on 2026-11-27.*
 - **Why:** A whole-download budget catches heavy assets, not just code; 60 kB leaves room for many lessons of plain DOM, Canvas and SVG while staying small.
 
 ## 2026-11-27: A Content-Security-Policy on the page
 - **Question:** How is "no third-party requests at runtime" kept true?
-- **Choice:** `index.html` sets a CSP meta tag with `default-src 'self'`, so the browser itself refuses any request to another origin. *Decided by Claude, pending review.*
+- **Choice:** `index.html` sets a CSP meta tag with `default-src 'self'`, so the browser itself refuses any request to another origin. *Decided by Claude; approved by the owner on 2026-11-27.*
 - **Why:** A rule the browser enforces can't drift the way a review habit can.
 
 ## 2026-11-27: Research dossier approved
@@ -94,5 +94,15 @@ Dated question, choice and why, newest last. Entries from 2026-11-15 come from t
 
 ## 2026-11-27: The running tiger
 - **Question:** Who is the one named tiger that ages through the lessons?
-- **Choice:** Junu, a fictional female Bengal tiger in Chitwan National Park, Nepal, whose every life event is a typical one reported by the dossier's studies. The site says she is fictional. *Decided by Claude, pending review.*
+- **Choice:** Junu, a fictional female Bengal tiger in Chitwan National Park, Nepal, whose every life event is a typical one reported by the dossier's studies. The site says she is fictional. *Decided by Claude; approved by the owner on 2026-11-27.*
 - **Why:** Chitwan has the dossier's best long-term field studies (marking, dispersal, density, conflict). A female stays near home, so one place can carry her whole life; a real, named tiger would tie the course to claims about one animal that the sources don't support.
+
+## 2026-11-27: Lesson outline approved
+- **Question:** Is `docs/LESSONS.md` the outline the lessons are built from?
+- **Choice:** Yes. The owner approved the outline, Junu included, and every decision above, on 2026-11-27.
+- **Why:** The repo's rule is that the user approves the outline before lessons are built.
+
+## 2026-11-27: Public repo and GitHub Pages
+- **Question:** May the repo become public and the site be published on GitHub Pages?
+- **Choice:** Yes, once the course is built and an audit of everything that becomes visible (commits with author and committer emails, tags, PR refs, PR and issue text) finds no secrets, personal paths or email other than the noreply one. Any finding stops it for the owner to decide. Approved by the owner on 2026-11-27.
+- **Why:** Making a repo public can't be undone for anyone who has already seen it.
