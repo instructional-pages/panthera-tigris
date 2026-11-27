@@ -25,7 +25,10 @@ git -C "$out" -c user.name="$(git config user.name)" -c user.email="$email" \
   commit -q -m "deploy $sha"
 git -C "$out" push -q -f "$(git remote get-url origin)" gh-pages
 
+# GitHub may enable Pages on its own when gh-pages first appears, so a failed POST is fine
+# as long as Pages exists afterwards.
 if ! gh api "repos/$repo/pages" >/dev/null 2>&1; then
-  gh api -X POST "repos/$repo/pages" -f 'source[branch]=gh-pages' -f 'source[path]=/' >/dev/null
+  gh api -X POST "repos/$repo/pages" -f 'source[branch]=gh-pages' -f 'source[path]=/' >/dev/null 2>&1 ||
+    gh api "repos/$repo/pages" >/dev/null
 fi
 echo "deployed $sha: https://instructional-pages.github.io/panthera-tigris/ (live in a minute or two)"
