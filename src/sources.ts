@@ -41,6 +41,20 @@ export const SOURCES: Readonly<Record<string, Source>> = {
     cite: "Smith J. L. D. (1993). The role of dispersal in structuring the Chitwan tiger population. Behaviour 124(3–4), 165–195.",
     url: "https://doi.org/10.1163/156853993X00560",
   },
+  Karanth1995: {
+    cite:
+      "Karanth K. U. (1995). Estimating tiger Panthera tigris populations from camera-trap data using capture–recapture models. Biological Conservation 71(3), 333–338.",
+    url: "https://repository.ias.ac.in/89441",
+  },
+  Xu2013: {
+    cite: "Xu X., Dong G.-X., Hu X.-S. et al. (2013). The genetic basis of white tigers. Current Biology 23(11), 1031–1035.",
+    url: "https://doi.org/10.1016/j.cub.2013.04.054",
+  },
+  Sagar2021: {
+    cite:
+      "Sagar V., Kaelin C. B., Natesh M. et al. (2021). High frequency of an otherwise rare phenotype in a small and isolated tiger population. PNAS 118(39), e2025273118.",
+    url: "https://doi.org/10.1073/pnas.2025273118",
+  },
   SINZ: {
     cite: "Smithsonian's National Zoo & Conservation Biology Institute. Tiger.",
     url: "https://nationalzoo.si.edu/animals/tiger",
