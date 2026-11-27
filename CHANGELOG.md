@@ -6,6 +6,23 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.12.0] - 2026-11-27
+
+### Added
+
+- Lesson 11, *Tigers and people*: twelve steps. Junu, eight, has a range that reaches into the
+  buffer zone, where villagers cut grass. Human–tiger conflict, livestock depredation and
+  retaliatory killing; how many attacks are recorded (Nepal's lowlands, Chitwan); where and when
+  (buffer zones, forests, by day); who is at risk (people alone, people bending or sitting); which
+  tigers attack (old, injured, dispersing); why conflict rises as tigers recover; livestock, and
+  how a tiger near a Bhutanese village protected farms; tolerance; and what helps. Factual,
+  never graphic.
+- A check: two pairs, which carried more risk (inside parks or in buffer zones; bending or
+  standing when attacked), locked in before the study's figures are shown.
+- A sandbox: put a villager on a drawn buffer-zone map, choose where they are, whether they are
+  alone and what they are doing, and see which way each choice moves the risk with the study's
+  figure, and a ladder that orders the choices without claiming a measured risk.
+
 ## [0.11.0] - 2026-11-27
 
 ### Added
@@ -174,6 +191,8 @@ All notable changes to this course are documented here. The format follows
 - A note on the page that the course is researched and written with Claude (AI).
 - The research dossier in `docs/research/`: 13 cited topics, from taxonomy to culture.
 
+[0.12.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.12.0
+[0.11.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.11.0
 [0.10.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.10.0
 [0.9.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.9.0
 [0.8.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.8.0

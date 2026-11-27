@@ -1322,3 +1322,137 @@ footer {
   gap: 0.5rem;
   margin-top: 0.75rem;
 }
+
+/* Lesson 11: the buffer-zone map, the check's reveals, the Bhutan comparison and the villager
+   sandbox. Forest is hatched (denser in the park); people are white; riskier and safer are told
+   apart by arrows and words. */
+.hatch-park {
+  stroke: #4a4a4a;
+  stroke-width: 2;
+}
+
+.hatch-buffer {
+  stroke: #333;
+  stroke-width: 1.5;
+}
+
+.forest-edge {
+  stroke: #e6e6e6;
+  stroke-width: 2;
+}
+
+.map-path {
+  fill: none;
+  stroke: #9a9a9a;
+  stroke-width: 1.5;
+  stroke-dasharray: 2 4;
+}
+
+.village rect {
+  fill: #000;
+  stroke: #bdbdbd;
+  stroke-width: 1.5;
+}
+
+.junu-range {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 2;
+  stroke-dasharray: 6 4;
+}
+
+.person line {
+  stroke: #fff;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.person circle {
+  fill: #fff;
+}
+
+.pair-row {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.pair-reveal {
+  font-size: 0.875rem;
+}
+
+.compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.compare-side {
+  padding: 0.75rem 1rem;
+  border: 1px solid #bdbdbd;
+}
+
+.compare-side.dashed {
+  border-style: dashed;
+  color: var(--muted);
+}
+
+.compare-side ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.choice-label {
+  min-width: 3.5rem;
+}
+
+.effects {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.effect {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 0.75rem;
+  padding: 0.3rem 0;
+  font-size: 0.875rem;
+}
+
+.effect.up .effect-arrow {
+  font-weight: 600;
+}
+
+.effect.down .effect-arrow {
+  color: var(--muted);
+}
+
+.ladder-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ladder {
+  display: flex;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rung {
+  width: 2.5rem;
+  height: 1rem;
+  border: 1px solid #8a8a8a;
+}
+
+.rung.here {
+  background: #e6e6e6;
+  border-color: #e6e6e6;
+}
+
+.ladder-box {
+  margin: 0 0 1rem;
+}
