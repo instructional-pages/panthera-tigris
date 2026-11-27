@@ -1071,3 +1071,66 @@ footer {
 .terr-map:focus-visible {
   outline: 2px solid var(--focus);
 }
+
+/* Lesson 7: the life stages, the leaving-home map and the cohort. Told apart by fill, outline,
+   dashes, shape and labels, not hue. */
+.life-bar,
+.life-peak {
+  fill: #e6e6e6;
+}
+
+.life-spread,
+.life-month {
+  fill: none;
+  stroke: #bdbdbd;
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+}
+
+.life-gone {
+  fill: none;
+  stroke: #4a4a4a;
+  stroke-width: 1;
+}
+
+.life-area.mother {
+  fill: #1c1c1c;
+  stroke: #8a8a8a;
+  stroke-width: 2;
+}
+
+.life-area.junu {
+  fill: #333;
+  stroke: #8a8a8a;
+  stroke-width: 2;
+}
+
+.life-area.forest {
+  fill: none;
+  stroke: #8a8a8a;
+  stroke-width: 2;
+  stroke-dasharray: 1 5;
+  stroke-linecap: round;
+}
+
+.life-area.brother {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 1.5;
+  stroke-dasharray: 7 4;
+}
+
+.life-area.farm {
+  fill: url(#life-hatch);
+}
+
+.life-path {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 3;
+}
+
+.life-path.brother {
+  stroke-width: 2;
+  stroke-dasharray: 8 5;
+}

@@ -6,6 +6,23 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-11-27
+
+### Added
+
+- Lesson 7, *A life: mating, cubs, leaving home*: nine steps. Junu, nearly four, has her first
+  litter, and her brother's very different path is followed too. Learn about heat and induced
+  ovulation, the mating months, a pregnancy of about 100 days and two years of care, the stages
+  of growing up on a time line from the sources, why daughters settle close and sons go far, and
+  how many cubs live to leave home.
+- Two checks: put the stages of a young female's life in order, and set a slider to how many of
+  ten Chitwan cubs are alive at two years, each before the lesson tells you.
+- A sandbox: follow 10 or 100 cubs, half daughters and half sons, through the stages with the
+  studies' survival figures, run it again and again, and switch the first year to the Russian Far
+  East's to see what heavy killing by people does.
+- Research: Kerley et al. 2003 (litters, birth intervals and cub deaths in the Russian Far East)
+  and the Cat Specialist Group's Chitwan figures fill lesson 7's gap in the dossier.
+
 ## [0.7.0] - 2026-11-27
 
 ### Added
