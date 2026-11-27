@@ -6,6 +6,29 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.15.0] - 2026-11-27
+
+### Added
+
+- Lesson 14, *Counting tigers, and saving them*: thirteen steps. Junu, twelve, is photographed by
+  the national count's cameras. The Red List and why the tiger is Endangered; capture–recapture
+  by stripes; the world's 3,726–5,578 wild tigers; India's and Nepal's counts over time beside
+  the world estimate; why a higher count is not always more tigers, and South-East Asia's
+  losses; the threats in order; why tigers can't absorb much killing (the 15% line); the 2010
+  goal to double numbers; protection, corridors and reintroduction.
+- Two checks: estimate a population from two camera sessions (20, 15 and 6 seen twice), and
+  predict whether a population with plentiful prey but 20% deaths a year recovers, each locked
+  in before its answer is taught.
+- Two sandboxes: a camera-trap survey of a model reserve (4, 9 or 16 cameras, spread out or
+  bunched; two sessions, the photos matched by stripes, the estimate, then the true number);
+  and a population model (prey and yearly deaths) that shows whether 20 tigers recover over 40
+  years. Both say which of their numbers are made up.
+
+### Changed
+
+- The bundle budget is 135 kB gzipped for the whole site, up from 120 kB, to fit lesson 14 and
+  the final quiz.
+
 ## [0.14.0] - 2026-11-27
 
 ### Added
@@ -223,6 +246,7 @@ All notable changes to this course are documented here. The format follows
 - A note on the page that the course is researched and written with Claude (AI).
 - The research dossier in `docs/research/`: 13 cited topics, from taxonomy to culture.
 
+[0.15.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.15.0
 [0.14.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.14.0
 [0.13.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.13.0
 [0.12.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.12.0

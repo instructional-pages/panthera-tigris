@@ -98,9 +98,10 @@ From the Red List, in order of the weight it gives them [@Goodrich2022]:
 
 **Why tigers can't absorb much killing.** A modelling study found that tigers need larger
 populations than leopards or cougars, are more sensitive to small rises in deaths, and recover
-more slowly: they breed later and wait longer between litters. If more than about 15% die each
-year, restoring prey alone will not save a population. The most urgent step is to stop people
-killing breeding females [@Chapron2008].
+more slowly: they breed later and wait longer between litters. If deaths reach 15% a year,
+restoring prey will not be enough (the abstract's words, re-read 2026-11-27: "prey recovery
+efforts will not be sufficient if mortality rates reach 15%"). The most urgent step is to reduce
+human-caused deaths, especially of resident breeding females [@Chapron2008].
 
 ## What is being done
 
