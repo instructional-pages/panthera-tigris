@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-draft, waiting for the owner's approval.** No lesson is built until it is approved (org rule).
+approved by the owner on 2026-11-27.** Built so far: lesson 1.
 
 ## How every lesson works
 
@@ -38,6 +38,8 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Sandbox:** sort cats into the tree by the traits shown; see which trait groupings the
   molecular evidence supports and which it doesn't.
 - **Check:** place the tiger and the snow leopard on the tree before the answer is shown.
+  *Built:* the check comes before the sandbox here, because sorting cats in the sandbox would
+  give the answer away (see `DECISIONS.md`).
 - **Research:** [taxonomy](research/taxonomy.md).
 
 ### 2. Two and a half million years of tigers

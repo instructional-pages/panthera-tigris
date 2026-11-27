@@ -5,8 +5,9 @@ about a tiger. It covers the science (taxonomy, evolution, body, senses, hunting
 cycle, subspecies, range, ecology, conservation) and the culture (history, myth, art, and the
 trade in tiger parts). Every lesson ends with interactive, hands-on checks.
 
-Status: outline phase. The cited dossier in `docs/research/` (start at its `index.md`) is approved;
-the lesson outline (`docs/LESSONS.md`) waits for approval, and the site is a skeleton until then. See `docs/BRIEF.md`.
+Status: building lessons. The cited dossier in `docs/research/` (start at its `index.md`) and the
+lesson outline (`docs/LESSONS.md`) are approved. Lesson 1, *What is a tiger?*, is built; the rest
+follow in outline order. See `docs/BRIEF.md`.
 Researched and written with Claude (AI), and reviewed by the author.
 
 License: MIT.

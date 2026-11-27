@@ -24,6 +24,31 @@
   Y chromosome, mitochondrial DNA and the combined data [@Davis2010; @Mazak2011]. See
   Disagreements.
 
+## The tiger's relatives
+
+What the Cat Specialist Group's species pages say about the other six pantherine cats, for
+comparing traits with the family tree. The tiger: up to 325 kg, a reddish-orange to
+yellow-ochre coat with black stripes, in Asia [@CATSG].
+
+| Cat | Name | Weight | Coat | Where |
+| --- | --- | --- | --- | --- |
+| Lion | *Panthera leo* | 110–272 kg | uniformly tawny, no spots | Africa south of the Sahara; one population in India's Gir Forest |
+| Leopard | *Panthera pardus* | 17–90 kg | yellowish to olive, black spots | Africa and Asia |
+| Jaguar | *Panthera onca* | 36–148 kg | pale yellow or tawny, rosettes around small spots | the Americas, Arizona to northern Argentina |
+| Snow leopard | *Panthera uncia* | 30–50 kg | white-grey or grey-brown, spots and rosettes | high mountains of Central Asia |
+| Mainland clouded leopard | *Neofelis nebulosa* | 16–23 kg | cloud-like rosettes with dark outlines | mainland South-east Asia |
+| Sunda clouded leopard | *Neofelis diardi* | 11–25 kg | greyish, cloud-like patterns | Sumatra and Borneo |
+
+Sources, row by row: [@CATSGLion], [@CATSGLeopard], [@CATSGJaguar], [@CATSGSnowLeopard],
+[@CATSGCloudedLeopard], [@CATSGSundaCloudedLeopard].
+
+- The snow leopard's vocal folds lack the tissue needed for the deep roar of other big cats
+  [@CATSGSnowLeopard]; the mainland clouded leopard cannot roar [@CATSGCloudedLeopard]. The
+  other pages don't describe the voice, so the course doesn't use roaring as a trait yet.
+- How lion, leopard and jaguar branch among themselves isn't recorded here (the Davis et al.
+  abstract wasn't readable on this pass), so lesson 1 draws the three on one branch without
+  splitting it.
+
 ## Subspecies: the older view (eight)
 
 Wozencraft (2005), as listed by Kitchener et al., recognised eight subspecies [@Kitchener2017]:
