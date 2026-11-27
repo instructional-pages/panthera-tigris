@@ -6,6 +6,20 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-11-27
+
+### Added
+
+- Lesson 5, *Hunting*: nine steps. Junu, eighteen months old, hunts beside her mother. Learn how
+  an ambush hunter works; what Chitwan's tigers eat, laid out by body mass; why "eaten most" is
+  not "preferred", with the 60–250 kg band tigers prefer range-wide and the Chitwan exceptions; and
+  how GPS collars find kills.
+- Two checks: put the steps of a hunt in order, and set a slider to the days between kills
+  (about 6.5), both before the answer is told.
+- A sandbox: compare the days between kills and the meat eaten per day in summer, in winter, and
+  after a small or a large kill, against the year's average.
+- A new source, a 2017 study of Chitwan tigers' diet, in the research dossier.
+
 ## [0.5.0] - 2026-11-27
 
 ### Added

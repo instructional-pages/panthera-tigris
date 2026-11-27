@@ -10,7 +10,8 @@
   kills. **Consumption rate**: how many kilograms of meat it eats per day [@Miller2013].
 - **GPS cluster**: a group of GPS-collar locations close together in place and time. A tiger
   that stays put for many hours is often on a kill, so researchers walk to clusters to find
-  carcasses [@Miller2013].
+  carcasses [@Miller2013]. Miller et al.'s collars took a location every 90, 180 or 360
+  minutes [@Miller2013].
 
 ## How a tiger hunts
 
@@ -34,6 +35,17 @@
   boar, 24.3% red deer and 23.4% roe deer. About half of the large ungulates killed were young
   animals [@Miller2013].
 
+- In Chitwan National Park, Nepal, 85 tiger scats collected in 2014 held 109 prey items of eight
+  species. By share of items: chital (spotted deer) 45%, sambar 23%, wild boar 15%, hog deer 9%,
+  barking deer 4%, gaur 2%, domestic buffalo 2% and cow 1%; wild prey made up 94% of the
+  biomass eaten [@Bhandari2017].
+- The study's estimated weights for these prey: barking deer 20 kg, hog deer 33 kg, wild boar
+  38 kg, chital 45 kg, sambar 125 kg, cow 180 kg, buffalo 273 kg, gaur 450 kg [@Bhandari2017].
+- Eaten most is not the same as preferred. Against how common each prey was, chital was eaten
+  *less* than expected, while sambar, wild boar and hog deer were taken *more* than expected
+  [@Bhandari2017]. Earlier Chitwan studies also found chital under-used for how abundant it is;
+  one suggested reason is that chital live in herds [@Bhandari2017].
+
 ## How often a tiger kills and eats
 
 The best-measured case is the Amur tiger, from GPS collars in the Sikhote-Alin region of Russia,
@@ -45,7 +57,12 @@ The best-measured case is the Amur tiger, from GPS collars in the Sikhote-Alin r
   carcass and for scavengers [@Miller2013].
 - Rates changed with the seasons: a kill every 7.4 days in summer and every 5.7 days in winter.
   Winter kills were more often large prey [@Miller2013].
-- After a small kill the next kill came sooner (5.75 days on average) than after a large one
+- Prey were split at 40 kg into small and large. After a small kill the next kill came after
+  5.75 days on average; after a large one, after 8.12 days, which the authors suggest reflects
+  satiation or the time spent handling and eating the prey [@Miller2013].
+- Eating followed the seasons too: about 7.9 kg a day in summer and 10.3 kg in winter. In summer
+  tigers took more young ungulates and small prey; large prey were 64.2% of kills in summer and
+  75% in winter. The authors link the higher winter intake to the energy needed to keep warm
   [@Miller2013].
 - These estimates rest on three tigers (two females, one male), and are higher than earlier
   ones based on snow-tracking in winter, partly because GPS finds small kills that snow-tracking
@@ -58,6 +75,12 @@ The best-measured case is the Amur tiger, from GPS collars in the Sikhote-Alin r
   tigers gives one kill every 6.5 days, with earlier studies ranging from about 5 to 9 days
   between kills depending on method and region [@Miller2013]. The course teaches roughly once a
   week, and shows that the number depends on prey size and season.
+
+- **Preferred prey size in Chitwan.** The range-wide review finds 60–250 kg preferred
+  [@Hayward2012], but in Chitwan wild boar and hog deer were taken more than expected at estimated
+  weights of 38 and 33 kg [@Bhandari2017]. The two studies weigh prey differently (the review's
+  method is known only from its abstract), and a range-wide pattern need not hold in every park.
+  The course teaches the band as a range-wide pattern and shows the Chitwan exceptions.
 
 ## Open
 

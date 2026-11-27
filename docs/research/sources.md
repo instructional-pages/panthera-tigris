@@ -96,6 +96,10 @@ The two known big ones:
   the tiger *Panthera tigris*. *Journal of Zoology* 286(3), 221–231.
   https://doi.org/10.1111/j.1469-7998.2011.00871.x — *abstract* (from the Bangor University
   research portal).
+- **[@Bhandari2017]** Bhandari S., Chalise M. K., Pokharel C. P. (2017). Diet of Bengal tigers
+  (*Panthera tigris tigris*) in Chitwan National Park, Nepal. *European Journal of Ecology* 3(1),
+  80–84. https://doi.org/10.1515/eje-2017-0008 — *full text* (open access, from
+  https://conservewildcats.org/wp-content/uploads/sites/5/WildCats/papers/DietBengalTigersChitwanNationalParkNepal.pdf).
 - **[@Smith1989]** Smith J. L. D., McDougal C., Miquelle D. (1989). Scent marking in free-ranging
   tigers, *Panthera tigris*. *Animal Behaviour* 37, 1–10.
   https://doi.org/10.1016/0003-3472(89)90001-8 — *abstract* (from the University of Minnesota

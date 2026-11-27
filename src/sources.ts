@@ -86,6 +86,19 @@ export const SOURCES: Readonly<Record<string, Source>> = {
       "Sydney Voice Lab, University of Sydney (2025). Acoustic analysis normative data reference sheet, v4.0 (adult speaking pitch from Leung, Oates, Papp and Chan 2022, Journal of Voice 36(3)).",
     url: "https://www.sydney.edu.au/content/dam/corporate/documents/faculty-of-medicine-and-health/research/research-centres/sydney-voice-lab/acoustic-analysis-normative-data-reference-sheet-20250416_v4.0-sydney-voice-lab.pdf.coredownload.pdf",
   },
+  Miller2013: {
+    cite:
+      "Miller C. S., Hebblewhite M., Petrunenko Y. K. et al. (2013). Estimating Amur tiger (Panthera tigris altaica) kill rates and potential consumption rates using global positioning system collars. Journal of Mammalogy 94(4), 845–855.",
+    url: "https://doi.org/10.1644/12-MAMM-A-209.1",
+  },
+  Hayward2012: {
+    cite: "Hayward M. W., Jędrzejewski W., Jędrzejewska B. (2012). Prey preferences of the tiger Panthera tigris. Journal of Zoology 286(3), 221–231.",
+    url: "https://doi.org/10.1111/j.1469-7998.2011.00871.x",
+  },
+  Bhandari2017: {
+    cite: "Bhandari S., Chalise M. K., Pokharel C. P. (2017). Diet of Bengal tigers (Panthera tigris tigris) in Chitwan National Park, Nepal. European Journal of Ecology 3(1), 80–84.",
+    url: "https://doi.org/10.1515/eje-2017-0008",
+  },
   SINZ: {
     cite: "Smithsonian's National Zoo & Conservation Biology Institute. Tiger.",
     url: "https://nationalzoo.si.edu/animals/tiger",
