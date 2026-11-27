@@ -44,3 +44,11 @@ admin-0 countries (public domain) by `scripts/make_map.py`; download
 dossier's citations (every `[@Key]` resolves to `sources.md`, every source is cited, `index.md`
 links every file), then typecheck, unit tests, build, and the bundle budget: the built site's
 code must stay under 135 kB gzipped and its photos under 90 kB (`scripts/check_bundle.py`).
+
+## Publish
+
+`scripts/deploy.sh` publishes the site to GitHub Pages at
+<https://instructional-pages.github.io/panthera-tigris/>, from this machine (no GitHub Actions).
+Run it from an up-to-date `main` with a clean tree: it runs every check, pushes the built `dist/`
+as the only commit of the `gh-pages` branch, and turns Pages on the first time. Pages needs the
+repo to be public.
