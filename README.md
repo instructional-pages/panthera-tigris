@@ -24,6 +24,11 @@ npm test           # unit tests for the pure modules in src/
 npm run build      # static site in dist/
 ```
 
+The page shell (`src/shell.ts`: title, steps with Back and Next, sources) is the same for every
+lesson; each lesson supplies its content and draws its live view (`src/lesson1-view.ts`). The
+pieces several lessons share are tried out in a dev-only gallery at `/dev/pieces.html` under
+`npm run dev`; it is not part of the build.
+
 `./.local-ci` runs every check (`local-ci` runs it and posts the status to the PR): the research
 dossier's citations (every `[@Key]` resolves to `sources.md`, every source is cited, `index.md`
 links every file), then typecheck, unit tests, build, and the bundle budget: the whole built

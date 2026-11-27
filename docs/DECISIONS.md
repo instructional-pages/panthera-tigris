@@ -121,3 +121,13 @@ Dated question, choice and why, newest last. Entries from 2026-11-15 come from t
 - **Question:** Which traits does the sandbox sort cats by, and how is the tree drawn where the dossier is silent?
 - **Choice:** Four traits, all from the Cat Specialist Group's species pages (added to the dossier): spots or rosettes, can weigh over 100 kg, lives wild in Asia, and *Panthera* in the name. Roaring is left out because the pages describe it for only two of the seven cats. Lion, leopard and jaguar share one branch without inner forks, and the sandbox says "the tree can't say" for groups that split it. The tree is drawn as nested lists with branch lines, not a canvas. *Decided by Claude, pending review.*
 - **Why:** Only sourced traits go on the site, and the tree mustn't claim forks the dossier hasn't read (the Davis et al. abstract was unreachable). Nested lists are keyboard- and screen-reader-friendly for free and cost no drawing code.
+
+## 2026-11-27: How the estimate slider judges a guess
+- **Question:** Several checks ask for a number on a slider (years ago, cubs out of ten, a price share). When is a guess "close", and how is a span over orders of magnitude shown?
+- **Choice:** Each slider is linear or logarithmic (equal steps are equal ratios, for spans like 1,000 to 10 million years). A guess is close when it sits within a set fraction of the slider's length from the answer, so on a log scale "close" means within a ratio. Log stops are rounded to two significant figures so they read as plain numbers. After locking in, the answer and the guess are drawn on the same scale, told apart by a solid or dashed line and a label, not by hue. *Decided by Claude, pending review.*
+- **Why:** Closeness measured along the slider matches what the learner sees and works the same on both scales; a fixed amount would be meaningless across orders of magnitude.
+
+## 2026-11-27: Shared pieces are tried out in a dev-only gallery
+- **Question:** How is a shared piece verified in a browser before any lesson uses it?
+- **Choice:** `dev/pieces.html` mounts the pieces with the real lesson shell and demo values, served by `npm run dev` and left out of the build. *Decided by Claude, pending review.*
+- **Why:** It checks the piece live without publishing demo values (which aren't facts) on the site.
