@@ -5,9 +5,9 @@ about a tiger. It covers the science (taxonomy, evolution, body, senses, hunting
 cycle, subspecies, range, ecology, conservation) and the culture (history, myth, art, and the
 trade in tiger parts). Every lesson ends with interactive, hands-on checks.
 
-Status: building lessons. The cited dossier in `docs/research/` (start at its `index.md`) and the
+Status: all fifteen lessons are built; not yet published. The cited dossier in `docs/research/` (start at its `index.md`) and the
 lesson outline (`docs/LESSONS.md`) are approved. Lessons 1 to 14 (*What is a tiger?*, *Two and a half million
-years of tigers*, *The body: size, coat, stripes*, *Voice and senses*, *Hunting*, *A territory of her own*, *A life: mating, cubs, leaving home*, *How many kinds of tiger?*, *Where tigers live*, *Prey, rivals and the forest*, *Tigers and people*, *The trade in tiger parts*, *The tiger in culture*, *Counting tigers, and saving them*) are built; the rest follow in outline order. Lesson 1 is the front page; lesson
+years of tigers*, *The body: size, coat, stripes*, *Voice and senses*, *Hunting*, *A territory of her own*, *A life: mating, cubs, leaving home*, *How many kinds of tiger?*, *Where tigers live*, *Prey, rivals and the forest*, *Tigers and people*, *The trade in tiger parts*, *The tiger in culture*, *Counting tigers, and saving them*) are built, and lesson 15 is the final quiz. Lesson 1 is the front page; lesson
 *n* is at `?lesson=n`. See `docs/BRIEF.md`.
 Researched and written with Claude (AI), and reviewed by the author.
 

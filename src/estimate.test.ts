@@ -68,3 +68,15 @@ test("judgeEstimate with an upper bound: anything at or under it is close", () =
   assert.equal(judgeEstimate(share, 3.2).kind, "close"); // within the closeness above the bound
   assert.equal(judgeEstimate(share, 10).kind, "high");
 });
+
+test("judgeEstimate with a span: inside is close; outside is judged from the nearer end", () => {
+  const spec: EstimateSpec = { min: 0.1, max: 30, answer: 17, range: [15, 19], scale: "log", steps: 30, close: 0.02 };
+  assert.deepEqual(judgeEstimate(spec, 15), { kind: "close" });
+  assert.deepEqual(judgeEstimate(spec, 19), { kind: "close" });
+  assert.deepEqual(judgeEstimate(spec, 16), { kind: "close" });
+  // Just past an end, within `close` of it along the slider.
+  assert.deepEqual(judgeEstimate(spec, 19.5), { kind: "close" });
+  assert.deepEqual(judgeEstimate(spec, 5), { kind: "low", by: 3 }); // 15 ÷ 5, from the nearer end
+  const high = judgeEstimate(spec, 30);
+  assert.ok(high.kind === "high" && Math.abs(high.by - 30 / 19) < 1e-9);
+});

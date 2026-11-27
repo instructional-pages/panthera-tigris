@@ -299,10 +299,21 @@ button[aria-pressed="true"] {
   border-left: 3px solid #fff;
 }
 
-.estimate-track .answer span {
+.estimate-track .answer span,
+.estimate-track .answer-span span {
   color: #fff;
   font-weight: 600;
   top: -1.6rem;
+}
+
+/* A span the sources give, rather than one number: a hatched band with solid ends. */
+.estimate-track .answer-span {
+  transform: none;
+  min-width: 3px;
+  box-sizing: border-box;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  background: repeating-linear-gradient(135deg, #fff 0 2px, transparent 2px 6px);
 }
 
 /* The ordering task: move items with Up and Down, lock in, then each item's right place. */
