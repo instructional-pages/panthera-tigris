@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 14.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 15 (all).
 
 ## How every lesson works
 

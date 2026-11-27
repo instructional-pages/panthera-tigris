@@ -14,10 +14,11 @@ import { TITLE as TITLE11 } from "./lesson11.ts";
 import { TITLE as TITLE12 } from "./lesson12.ts";
 import { TITLE as TITLE13 } from "./lesson13.ts";
 import { TITLE as TITLE14 } from "./lesson14.ts";
+import { TITLE as TITLE15 } from "./lesson15.ts";
 import { href, lessonOf, TITLES } from "./lessons.ts";
 
 test("the course's list carries each lesson's own title, in order", () => {
-  assert.deepEqual(TITLES, [TITLE1, TITLE2, TITLE3, TITLE4, TITLE5, TITLE6, TITLE7, TITLE8, TITLE9, TITLE10, TITLE11, TITLE12, TITLE13, TITLE14]);
+  assert.deepEqual(TITLES, [TITLE1, TITLE2, TITLE3, TITLE4, TITLE5, TITLE6, TITLE7, TITLE8, TITLE9, TITLE10, TITLE11, TITLE12, TITLE13, TITLE14, TITLE15]);
 });
 
 test("lessonOf: the query string picks the lesson; anything unknown is lesson 1", () => {
@@ -36,6 +37,7 @@ test("lessonOf: the query string picks the lesson; anything unknown is lesson 1"
   assert.equal(lessonOf("?lesson=12"), 12);
   assert.equal(lessonOf("?lesson=13"), 13);
   assert.equal(lessonOf("?lesson=14"), 14);
+  assert.equal(lessonOf("?lesson=15"), 15);
   assert.equal(lessonOf("?x=1&lesson=2"), 2);
   assert.equal(lessonOf("?lesson=99"), 1);
   assert.equal(lessonOf("?lesson=0"), 1);

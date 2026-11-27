@@ -20,6 +20,8 @@ export interface Estimate extends EstimateSpec {
   readonly words?: { readonly low: string; readonly high: string };
   /** Largest value on the left, to match a figure beside it (a time line with the oldest on the left). */
   readonly reverse?: boolean;
+  /** A span as the learner reads it, e.g. "15–19 tigers"; "<lo> to <hi>" in `format` when not given. */
+  readonly formatRange?: (lo: number, hi: number) => string;
 }
 
 export interface EstimateState {
@@ -36,6 +38,12 @@ const pct = (p: number): string => `${(p * 100).toFixed(2)}%`;
 
 function marker(cls: string, at: number, text: string): HTMLElement {
   return h("div", { cls: `mark ${cls}`, attrs: { style: `left: ${pct(at)}` } }, h("span", {}, text));
+}
+
+/** The answer as a hatched band from `a` to `b` (either way round), when the sources give a span. */
+function span(a: number, b: number): HTMLElement {
+  const [lo, hi] = a < b ? [a, b] : [b, a];
+  return h("div", { cls: "mark answer-span", attrs: { style: `left: ${pct(lo)}; width: ${pct(hi - lo)}` } }, h("span", {}, "Answer"));
 }
 
 /** The slider, its Lock in button, and after locking, the answer beside the guess. */
@@ -86,19 +94,21 @@ export function estimateView(e: Estimate, s: EstimateState, ui: Ui): HTMLElement
   }
 
   const v = judgeEstimate(e, guess);
+  const said = e.range ? (e.formatRange?.(e.range[0], e.range[1]) ?? `${e.format(e.range[0])} to ${e.format(e.range[1])}`) : e.format(e.answer);
+  const answerMark = e.range ? span(along(position(e, e.range[0])), along(position(e, e.range[1]))) : marker("answer", along(position(e, e.answer)), "Answer");
   const head = v.kind === "close" ? "✓ Close. " : `✗ ${v.kind === "low" ? (e.words?.low ?? "Too low") : (e.words?.high ?? "Too high")}. `;
   box.append(
     h(
       "div",
-      { cls: "estimate-track", attrs: { role: "img", "aria-label": `Your estimate, ${e.format(guess)}, beside the answer, ${e.format(e.answer)}` } },
+      { cls: "estimate-track", attrs: { role: "img", "aria-label": `Your estimate, ${e.format(guess)}, beside the answer, ${said}` } },
       marker("guess", along(position(e, guess)), "You"),
-      marker("answer", along(position(e, e.answer)), "Answer"),
+      answerMark,
     ),
     h(
       "p",
       { cls: v.kind === "close" ? "feedback right" : "feedback wrong", attrs: { "aria-live": "polite" } },
       h("strong", {}, head),
-      `You said ${e.format(guess)}; the answer is ${e.bound === "atMost" ? "at most " : ""}${e.format(e.answer)}. `,
+      `You said ${e.format(guess)}; the answer is ${e.bound === "atMost" ? "at most " : ""}${said}. `,
       ...ui.rich(e.explain),
     ),
   );

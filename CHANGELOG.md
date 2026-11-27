@@ -6,6 +6,20 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.16.0] - 2026-11-27
+
+### Added
+
+- Lesson 15, *Final quiz*: eight hands-on tasks from across the course, each answered and
+  locked in first, then revealed and explained, with a link back to the lesson it comes from.
+  No score. Match five camera-trap photos to four new tigers by their stripes; order the steps
+  of a hunt and the stages of a young female's life; estimate the days between kills, tigers
+  per 100 km² in Kaziranga and Corbett, the share of the old range still a Tiger Conservation
+  Landscape, and the world's wild tigers; pick on the map the three places that lost their
+  tigers since 2000. The last step lists every lesson.
+- The estimate slider can take a span the sources give (15–19 tigers, 3,726–5,578) instead of
+  one number: any guess inside it is close, and the reveal draws the span as a hatched band.
+
 ## [0.15.0] - 2026-11-27
 
 ### Added
@@ -246,6 +260,7 @@ All notable changes to this course are documented here. The format follows
 - A note on the page that the course is researched and written with Claude (AI).
 - The research dossier in `docs/research/`: 13 cited topics, from taxonomy to culture.
 
+[0.16.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.16.0
 [0.15.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.15.0
 [0.14.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.14.0
 [0.13.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.13.0

@@ -13,6 +13,11 @@ export interface EstimateSpec {
   readonly close: number;
   /** "atMost": the answer is an upper bound (the sources give "at most"), so any guess at or under it is close. */
   readonly bound?: "atMost";
+  /**
+   * The span the sources give (e.g. 15–19), when they give no single number: any guess inside it
+   * is close, the reveal shows the span, and `answer` (a point inside it) is never drawn.
+   */
+  readonly range?: readonly [number, number];
 }
 
 export type EstimateVerdict =
@@ -50,12 +55,15 @@ export const stopOf = (spec: EstimateSpec, value: number): number => Math.round(
 /**
  * How the guess compares with the answer. Close is measured along the slider, so on a log
  * scale "close" means within a ratio, not a fixed amount. `by` is how far off the guess is:
- * a ratio (at least 1) on a log scale, a difference on a linear one.
+ * a ratio (at least 1) on a log scale, a difference on a linear one; with a span, from its nearer end.
  */
 export function judgeEstimate(spec: EstimateSpec, guess: number): EstimateVerdict {
   if (spec.bound === "atMost" && guess <= spec.answer) return { kind: "close" };
-  if (Math.abs(position(spec, guess) - position(spec, spec.answer)) <= spec.close) return { kind: "close" };
-  const kind = guess < spec.answer ? "low" : "high";
-  const by = spec.scale === "log" ? Math.max(guess, spec.answer) / Math.min(guess, spec.answer) : Math.abs(guess - spec.answer);
+  if (spec.range && guess >= spec.range[0] && guess <= spec.range[1]) return { kind: "close" };
+  // With a span, a guess outside it is judged against its nearer end.
+  const answer = spec.range ? (guess < spec.range[0] ? spec.range[0] : spec.range[1]) : spec.answer;
+  if (Math.abs(position(spec, guess) - position(spec, answer)) <= spec.close) return { kind: "close" };
+  const kind = guess < answer ? "low" : "high";
+  const by = spec.scale === "log" ? Math.max(guess, answer) / Math.min(guess, answer) : Math.abs(guess - answer);
   return { kind, by };
 }
