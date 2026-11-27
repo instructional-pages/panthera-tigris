@@ -6,6 +6,20 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.17.0] - 2026-11-27
+
+### Added
+
+- Three openly licensed photos, bundled with the site and credited under each picture and in
+  a new "Pictures" list under each lesson's sources: a wild tiger in Chitwan National Park
+  (lesson 1, first step), a camera-trap photo of a wild Sumatran tiger (lesson 3, camera
+  traps) and Blake's own hand-coloured page of "The Tyger" (lesson 13).
+
+### Changed
+
+- The bundle check measures photos against their own budget (90 kB), apart from the code's
+  135 kB.
+
 ## [0.16.0] - 2026-11-27
 
 ### Added

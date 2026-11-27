@@ -20,6 +20,9 @@ import {
 } from "./lesson1.ts";
 import type { Lesson, Ui } from "./shell.ts";
 import { find, isLeaf, judge, leaves, type TreeNode, type Verdict } from "./tree.ts";
+import { photoFigure } from "./photo-view.ts";
+import { PHOTOS } from "./photos.ts";
+import chitwanUrl from "./photos/chitwan-tiger.avif";
 
 // ---- State: the view is redrawn from this on every change. ----
 
@@ -196,6 +199,7 @@ export const lesson1: Lesson = {
   title: TITLE,
   steps: STEPS,
   sources: lessonSources(),
+  photos: [PHOTOS.chitwan],
   enter(i) {
     index = i;
     for (const id of STEPS[i]!.open) open.add(id);
@@ -206,7 +210,8 @@ export const lesson1: Lesson = {
     const verdict = mode() === "sandbox" ? judge(find(TREE, SANDBOX_ROOT)!, chosen) : null;
     const tree = h("ul", { cls: "tree", attrs: { "aria-label": "Family tree of the cats" } }, nodeEl(TREE, verdict));
     const panel = mode() === "check" ? [checkPanel()] : verdict ? [sandboxPanel(verdict)] : [];
-    return [...panel, tree];
+    const photo = i === 0 ? [photoFigure(PHOTOS.chitwan, chitwanUrl, 720, 505)] : [];
+    return [...photo, ...panel, tree];
   },
   hold: (i) => (STEPS[i]!.mode === "check" && !revealed ? "Answer the check to go on." : null),
 };

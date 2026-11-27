@@ -35,6 +35,17 @@ class CheckBundleTest(unittest.TestCase):
         self.assertEqual(run(["x", str(self.root), str(total / 1000)]), 0)
         self.assertEqual(run(["x", str(self.root), str((total - 1) / 1000)]), 1)
 
+    def test_images_have_their_own_budget(self):
+        (self.root / "assets" / "p.avif").write_bytes(bytes(range(256)) * 40)
+        sizes = check_bundle.gzipped_sizes(self.root)
+        image = sizes["assets/p.avif"]
+        code = sum(sizes.values()) - image
+        self.assertEqual(run(["x", str(self.root), str(code / 1000), str(image / 1000)]), 0)
+        self.assertEqual(run(["x", str(self.root), str(code / 1000), str((image - 1) / 1000)]), 1)
+        self.assertEqual(run(["x", str(self.root), str((code - 1) / 1000), str(image / 1000)]), 1)
+        # Without an image budget, photos count in the one total.
+        self.assertEqual(run(["x", str(self.root), str(code / 1000)]), 1)
+
     def test_missing_build_fails(self):
         self.assertEqual(run(["x", str(self.root / "nope")]), 1)
 

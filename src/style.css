@@ -1670,3 +1670,36 @@ footer {
 .photo-row > .tiger {
   width: 12rem;
 }
+
+/* A photo: bundled, captioned, credited. The picture never runs wider than the view. */
+.photo-figure {
+  margin: 0 0 1rem;
+  max-width: 34rem;
+}
+
+/* A tall picture (a printed page) is kept narrower, so it fits beside the text. */
+.photo-figure.portrait {
+  max-width: 22rem;
+}
+
+.photo-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.photo-figure figcaption {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  margin-top: 0.35rem;
+}
+
+.photo-credit {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.15rem;
+}
+
+.pictures {
+  margin-top: 1.5rem;
+}

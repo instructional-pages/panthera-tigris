@@ -23,6 +23,9 @@ import {
   WANT,
 } from "./lesson13.ts";
 import { type Mark, mapView } from "./map-view.ts";
+import { photoFigure } from "./photo-view.ts";
+import { PHOTOS } from "./photos.ts";
+import blakeUrl from "./photos/blake-tyger.avif";
 import type { Lesson, Ui } from "./shell.ts";
 
 let ui: Ui;
@@ -201,6 +204,7 @@ export const lesson13: Lesson = {
   title: TITLE,
   steps: STEPS,
   sources: lessonSources(),
+  photos: [PHOTOS.blake],
   view(i, u) {
     ui = u;
     const view = STEPS[i]!.view;
@@ -210,7 +214,7 @@ export const lesson13: Lesson = {
       case "check":
         return [checkView()];
       case "books":
-        return [books()];
+        return [books(), photoFigure(PHOTOS.blake, blakeUrl, 560, 624)];
       case "project":
         return [storyMap("l13-project", [placeById("india")], ["Bright: India, where Project Tiger began in 1973. Source: ", ui.cite(["NTCAProjectTiger"])])];
       case "tolerance":
