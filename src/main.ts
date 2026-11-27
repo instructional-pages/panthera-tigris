@@ -12,6 +12,7 @@ const LOAD: readonly (() => Promise<Lesson>)[] = [
   () => import("./lesson6-view.ts").then((m) => m.lesson6),
   () => import("./lesson7-view.ts").then((m) => m.lesson7),
   () => import("./lesson8-view.ts").then((m) => m.lesson8),
+  () => import("./lesson9-view.ts").then((m) => m.lesson9),
 ];
 
 const n = lessonOf(location.search);

@@ -118,6 +118,11 @@ export const SOURCES: Readonly<Record<string, Source>> = {
       "Goodrich J., Wibisono H., Miquelle D. et al. (2022). Panthera tigris. The IUCN Red List of Threatened Species 2022: e.T15955A214862019.",
     url: "https://doi.org/10.2305/IUCN.UK.2022-1.RLTS.T15955A214862019.en",
   },
+  Sanderson2023: {
+    cite:
+      "Sanderson E. W., Miquelle D. G., Fisher K. et al. (2023). Range-wide trends in tiger conservation landscapes, 2001–2020. Frontiers in Conservation Science 4, 1191280.",
+    url: "https://doi.org/10.3389/fcosc.2023.1191280",
+  },
   SINZ: {
     cite: "Smithsonian's National Zoo & Conservation Biology Institute. Tiger.",
     url: "https://nationalzoo.si.edu/animals/tiger",

@@ -6,6 +6,20 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-11-27
+
+### Added
+
+- Lesson 9, *Where tigers live*: eight steps. Junu, six, is one small dot on the map of the
+  tiger's old range, from Turkey to Bali: 30 countries, 11.1 million km². The losses decade by
+  decade, from Singapore in the 1930s to Laos about 2014, with Java's disputed date; the three
+  layers of why (habitat gone, unusable, emptied by killing); the 63 landscapes left, less than a
+  tenth of the old range, by country; and the trend since 2001, with 226 Restoration Landscapes.
+- A check: pick the ten places that still have breeding tigers on the map before the losses are
+  told.
+- A sandbox: a slider from 1900 to 2020 that empties the map decade by decade, naming what was
+  lost, with a toggle for the three layers of loss.
+
 ## [0.9.0] - 2026-11-27
 
 ### Added
@@ -143,6 +157,7 @@ All notable changes to this course are documented here. The format follows
 - A note on the page that the course is researched and written with Claude (AI).
 - The research dossier in `docs/research/`: 13 cited topics, from taxonomy to culture.
 
+[0.10.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.10.0
 [0.9.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.9.0
 [0.8.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.8.0
 [0.7.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.7.0

@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 8.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 9.
 
 ## How every lesson works
 
@@ -175,6 +175,12 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Sandbox:** a time slider from 1900 to 2020 that empties the map decade by decade, with a toggle
   for the three layers of loss.
 - **Check:** drag the ten countries with breeding tigers onto the map.
+  *Built:* the check (pick the ten places on the map, then Lock in) comes right after the old
+  range is shown and before any loss is told. Whole countries are shaded, as a sketch; places
+  the sources don't date, or disagree about (Java), are hatched. The layers toggle sets the 2020
+  shares of the old range beside the map, since the layers are measured only for 2020. Junu's
+  line drops "Chitwan's tigers can reach India's next door": no source read says so (see
+  `DECISIONS.md`).
 - **Research:** [range](research/range.md).
 
 ### 10. Prey, rivals and the forest

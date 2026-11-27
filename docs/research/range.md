@@ -19,8 +19,12 @@
 - At its widest, the tiger lived from the Black Sea and eastern Turkey to the Pacific coast of
   Russia, and from the southern edge of the Siberian forest to the islands of Java and Bali
   [@Goodrich2022; @Sanderson2023].
-- That indigenous range covers about 11.1 million km², in what are now 30 countries
-  [@Sanderson2023].
+- That indigenous range covers about 11.1 million km² (11,123,576 km² in its Table 2), in what
+  are now 30 countries [@Sanderson2023]: Afghanistan, Armenia, Azerbaijan, Bangladesh, Bhutan,
+  Cambodia, China, Georgia, India, Indonesia, Iran, Iraq, Kazakhstan, Kyrgyzstan, Laos, Malaysia,
+  Myanmar, Nepal, North Korea, Pakistan, Russia, Singapore, South Korea, Syria, Tajikistan,
+  Thailand, Turkey, Turkmenistan, Uzbekistan and Vietnam (its Table 2; Singapore's mapped area
+  rounds to 0) [@Sanderson2023]. Re-read 2026-11-27.
 - The extinct western population (the Caspian tiger) lived along rivers and lakes from western
   China and Central Asia to the Caspian Sea, eastern Turkey and the Tigris and Euphrates valleys
   [@Goodrich2022].
@@ -40,17 +44,25 @@ Over the last 100 years, tigers vanished from (decades are approximate) [@Goodri
 | 2000s | Vietnam, Laos, Cambodia |
 
 The 2023 habitat study dates the last three more closely: Vietnam about 2004, Cambodia about
-2008, Laos about 2014 [@Sanderson2023]. The South China tiger has not been seen in the wild
+2008, Laos about 2014 [@Sanderson2023]. It adds that tigers lived on Bali into the 1940s and on
+Java into the 1980s, persisted on the Korean peninsula until the 1950s, and were still in
+Azerbaijan into the 1970s; and that all tiger habitat, and the tigers, have been lost in
+Afghanistan, Turkmenistan, Tajikistan, Uzbekistan and arid western China, with no dates given
+[@Sanderson2023]. Neither source read gives dates for Turkey, Iran, Iraq, Syria, Georgia,
+Armenia, Afghanistan or Pakistan. The South China tiger has not been seen in the wild
 since the 1970s and is possibly extinct; see [taxonomy](taxonomy.md) [@Goodrich2022].
 
 **Why the range shrank, in three layers** [@Sanderson2023]:
 
 1. About 60% of the indigenous range is no longer tiger habitat at all: forest and grassland
    turned into farms, plantations and cities (about 6.7 million km²).
-2. Another 23% still has the right vegetation but is too crowded with people, too broken up, or
-   too short of prey to be usable.
-3. Another 6% is good, quiet habitat with no tigers in it: they were killed, or their prey was,
-   until they were gone.
+2. Another 23% (about 2.5 million km²) still has the right vegetation but is too crowded with
+   people, too broken up, or too short of prey to be usable.
+3. Another 6% (711,634 km², the Restoration Landscapes) is good, quiet habitat with no tigers in
+   it: they were killed, or their prey was, until they were gone.
+
+A further 2% (188,364 km², Survey Landscapes) is habitat where it is not known whether tigers
+live [@Sanderson2023].
 
 That last layer is why the Red List names poaching of tigers and their prey as the main reason
 tigers disappeared from places that still look suitable [@Goodrich2022].
@@ -63,6 +75,10 @@ tigers disappeared from places that still look suitable [@Goodrich2022].
   [@Goodrich2022].
 - On 1 January 2020 there were 63 Tiger Conservation Landscapes, covering 911,920 km². That is
   8.2% of the indigenous range [@Sanderson2023].
+- By country (its Table 3, km²): India 300,519; Russia 195,822; Myanmar 168,415; China 100,368;
+  Indonesia 51,286; Malaysia 34,647; Bhutan 26,765; Thailand 14,030; Nepal 11,762; Bangladesh
+  8,308 (the rows add up to 2 km² more than the total, from rounding; the text gives slightly
+  different figures for India and Russia). Nepal has a single TCL [@Sanderson2023].
 - The largest, the "Northern Triangle" shared by India, Myanmar, China, Bhutan and Bangladesh,
   is about a third of all TCL area (294,847 km²), but tigers are probably not spread through all
   of it [@Sanderson2023].
@@ -103,6 +119,9 @@ breed [@Goodrich2022].
   them to infer a 54% decline since 1994 [@Goodrich2022]. It also says part of that apparent
   decline comes from better maps, not fewer tigers [@Goodrich2022]. The course shows the trend,
   not a precise percentage.
+
+- **When Java lost its tigers.** The Red List says the 1960s [@Goodrich2022]; the 2023 study
+  says tigers lived on Java "into the 1980s" [@Sanderson2023]. The course shows both.
 
 ## Open
 
