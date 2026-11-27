@@ -229,7 +229,7 @@ estimate sliders (days between kills, tigers per 100 km², the share of the old 
 
 Built once, used by several lessons: the step navigation (done), a stripe renderer (lessons 3, 14,
 15), the range map (9, 14, 15), the ordering task (5, 7, 15) and the estimate slider (2, 5, 7, 10,
-12, 14, 15).
+12, 14, 15; done). Each can be tried in the dev-only gallery, `dev/pieces.html`.
 
 ## Before building
 

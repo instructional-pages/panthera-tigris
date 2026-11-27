@@ -234,6 +234,77 @@ button[aria-pressed="true"] {
   margin: 1rem 0 0;
 }
 
+/* The estimate slider: set, lock in, then the answer beside the guess on the same scale. */
+.estimate {
+  max-width: 34rem;
+}
+
+.estimate-question {
+  margin: 0 0 0.5rem;
+}
+
+.estimate-value {
+  display: block;
+  font-size: 1.375rem;
+  color: #fff;
+  margin: 0 0 0.25rem;
+}
+
+.estimate input[type="range"] {
+  width: 100%;
+  accent-color: var(--focus);
+}
+
+.estimate-ends {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  margin: 0 0 1rem;
+}
+
+.estimate-track {
+  position: relative;
+  height: 3.25rem;
+  margin: 0.5rem 0 0;
+  border-top: 1px solid var(--line);
+}
+
+.estimate-track .mark {
+  position: absolute;
+  top: -0.6rem;
+  height: 1.2rem;
+  transform: translateX(-50%);
+}
+
+.estimate-track .mark span {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+
+/* Told apart by line style and label, not hue: dashed is the guess, solid the answer. */
+.estimate-track .guess {
+  border-left: 2px dashed var(--muted);
+}
+
+.estimate-track .guess span {
+  color: var(--muted);
+}
+
+.estimate-track .answer {
+  border-left: 3px solid #fff;
+}
+
+.estimate-track .answer span {
+  color: #fff;
+  font-weight: 600;
+  top: -1.6rem;
+}
+
 .sources {
   margin-top: 5rem;
   font-size: 0.8125rem;
