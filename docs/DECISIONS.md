@@ -86,3 +86,13 @@ Dated question, choice and why, newest last. Entries from 2026-11-15 come from t
 - **Question:** How is "no third-party requests at runtime" kept true?
 - **Choice:** `index.html` sets a CSP meta tag with `default-src 'self'`, so the browser itself refuses any request to another origin. *Decided by Claude, pending review.*
 - **Why:** A rule the browser enforces can't drift the way a review habit can.
+
+## 2026-11-27: Research dossier approved
+- **Question:** Is the research dossier ready for the lesson outline to be written from it?
+- **Choice:** Yes. The owner approved the dossier on 2026-11-27. Its **Open** items stay off the site until read.
+- **Why:** The repo's rule is that the user reviews the research before `docs/LESSONS.md` is written.
+
+## 2026-11-27: The running tiger
+- **Question:** Who is the one named tiger that ages through the lessons?
+- **Choice:** Junu, a fictional female Bengal tiger in Chitwan National Park, Nepal, whose every life event is a typical one reported by the dossier's studies. The site says she is fictional. *Decided by Claude, pending review.*
+- **Why:** Chitwan has the dossier's best long-term field studies (marking, dispersal, density, conflict). A female stays near home, so one place can carry her whole life; a real, named tiger would tie the course to claims about one animal that the sources don't support.
