@@ -906,3 +906,40 @@ footer {
   stroke-width: 1.25;
   stroke-opacity: 0.7;
 }
+
+/* Lesson 4: the pitch scale, the cochleas and the eyes. Told apart by fill, outline, dashes
+   and labels, not hue. */
+.pitch-band {
+  fill: #e6e6e6;
+}
+
+.pitch-band.roar {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 1.5;
+}
+
+.cochlea {
+  stroke: #e6e6e6;
+  stroke-width: 8;
+  stroke-linecap: butt;
+}
+
+.cochlea.range {
+  stroke-width: 2;
+  stroke-dasharray: 4 3;
+}
+
+.iris {
+  fill: #6b6b6b;
+  stroke: #e6e6e6;
+  stroke-width: 1.5;
+}
+
+.pupil {
+  fill: #000;
+}
+
+.eyes {
+  max-width: 44rem;
+}

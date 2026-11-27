@@ -4,6 +4,7 @@
 
 import { citedKeys } from "./cite.ts";
 import type { Copies } from "./genes.ts";
+import { JUNU } from "./junu.ts";
 import type { Photo } from "./stripes.ts";
 
 export const TITLE = "3. The body: size, coat, stripes";
@@ -60,8 +61,8 @@ export function scaled(d: Drawing, length: number): { width: number; height: num
 
 // ---- Junu and the tigers the lesson draws ----
 
-/** Junu's stripe pattern: the same seed in every lesson that draws her. */
-export const JUNU = 3;
+/** Junu's stripe pattern, from junu.ts. */
+export { JUNU };
 
 /** Three tigers for "no two the same": Junu, her brother, and a tiger from elsewhere in the park. */
 export const THREE: readonly { readonly name: string; readonly seed: number }[] = [
