@@ -117,5 +117,7 @@ Wozencraft (2005), as listed by Kitchener et al., recognised eight subspecies [@
 ## Open
 
 - Read Liu et al. 2018 in full (dates, the South China tiger's uncertain origin, the Sunda group).
+  Tried again 2026-11-27: the publisher refuses automated reading, and Europe PMC lists no
+  open-access copy, so lesson 8 uses the abstract only.
 - Read Wilting et al. 2015 directly; it is cited here only as summarised by Kitchener et al.
 - Check whether IUCN has published a taxonomy update since 2017.

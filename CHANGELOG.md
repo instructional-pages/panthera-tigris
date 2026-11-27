@@ -6,6 +6,25 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-11-27
+
+### Added
+
+- Lesson 8, *How many kinds of tiger?*: nine steps. Junu, five, is a Bengal tiger, but is that a
+  subspecies? Meet the nine named populations, the older eight subspecies, the evidence the 2017
+  IUCN revision weighed, its two subspecies (mainland and Sunda Islands), the 2018 genome study's
+  six living groups, and why both answers can be defended.
+- A check: put each living population into *P. t. tigris* or *P. t. sondaica* before the two
+  are shown.
+- A sandbox: a model tree of the nine populations with made-up differences, ordered to match the
+  sources. Move the line for how big a difference counts, and watch the count go from nine to one,
+  through the genomes' six and the revision's two.
+
+### Changed
+
+- The bundle budget is 120 kB gzipped for the whole site, up from 60 kB: each lesson is its own
+  chunk, so one visit downloads about 19 kB.
+
 ## [0.8.0] - 2026-11-27
 
 ### Added
@@ -124,5 +143,12 @@ All notable changes to this course are documented here. The format follows
 - A note on the page that the course is researched and written with Claude (AI).
 - The research dossier in `docs/research/`: 13 cited topics, from taxonomy to culture.
 
+[0.9.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.9.0
+[0.8.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.8.0
+[0.7.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.7.0
+[0.6.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.6.0
+[0.5.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.5.0
+[0.4.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.4.0
+[0.3.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.3.0
 [0.2.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.2.0
 [0.1.0]: https://github.com/instructional-pages/panthera-tigris/releases/tag/v0.1.0
