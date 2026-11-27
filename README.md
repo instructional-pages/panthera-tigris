@@ -29,6 +29,11 @@ lesson; each lesson supplies its content and draws its live view (`src/lesson1-v
 pieces several lessons share are tried out in a dev-only gallery at `/dev/pieces.html` under
 `npm run dev`; it is not part of the build.
 
+The range map's country outlines (`src/map-data.ts`) are generated from Natural Earth's 1:50m
+admin-0 countries (public domain) by `scripts/make_map.py`; download
+`ne_50m_admin_0_countries.geojson` from github.com/nvkelso/natural-earth-vector and run
+`python3 scripts/make_map.py <that file> > src/map-data.ts`. The output is committed.
+
 `./.local-ci` runs every check (`local-ci` runs it and posts the status to the PR): the research
 dossier's citations (every `[@Key]` resolves to `sources.md`, every source is cited, `index.md`
 links every file), then typecheck, unit tests, build, and the bundle budget: the whole built

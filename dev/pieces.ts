@@ -4,6 +4,7 @@
 
 import "../src/style.css";
 import { type Estimate, estimateView, freshEstimate } from "../src/estimate-view.ts";
+import { type PickTask, freshPick, mapView, pickView } from "../src/map-view.ts";
 import { type OrderTask, freshOrder, orderView } from "../src/order-view.ts";
 import { type Lesson, mount } from "../src/shell.ts";
 
@@ -47,17 +48,48 @@ const morning: OrderTask = {
 };
 const orderState = freshOrder(morning);
 
+const pick: PickTask = {
+  key: "pick",
+  question: "Demo: pick the countries whose names start with **B**.",
+  choices: ["bgd", "btn", "ind", "npl", "mmr", "tha", "bali", "sgp", "java"],
+  answer: ["bgd", "btn", "bali"],
+  explain: "Bali is an island, not a country, but it is a region on this map.",
+};
+const pickState = freshPick(pick);
+
+const shades: Record<string, "solid" | "hatched" | "dim"> = { ind: "solid", npl: "solid", bgd: "hatched", mmr: "hatched", chn: "dim", tha: "dim" };
+
 const gallery: Lesson = {
   title: "Shared pieces",
   steps: [
     ...estimates.map((e) => ({ text: [`**Estimate slider**: ${e.question}`] })),
     { text: [`**Ordering task**: ${morning.question}`] },
+    { text: [`**Range map, pick task**: ${pick.question}`] },
+    { text: ["**Range map, shaded and cropped**: solid, hatched and dim regions, and two marks placed by longitude and latitude."] },
   ],
   sources: [],
-  view: (i, ui) => [i < estimates.length ? estimateView(estimates[i]!, states[i]!, ui) : orderView(morning, orderState, ui)],
+  view: (i, ui) => {
+    if (i < estimates.length) return [estimateView(estimates[i]!, states[i]!, ui)];
+    if (i === estimates.length) return [orderView(morning, orderState, ui)];
+    if (i === estimates.length + 1) return [pickView(pick, pickState, ui)];
+    return [
+      mapView({
+        key: "shaded",
+        title: "Demo: shaded regions",
+        shade: (id) => shades[id],
+        crop: [400, 150, 400, 260],
+        marks: [
+          { lon: 77.2, lat: 28.6, label: "Delhi" },
+          { lon: 85.3, lat: 27.7, label: "Kathmandu" },
+        ],
+      }),
+    ];
+  },
   hold: (i) => {
     if (i < estimates.length) return states[i]!.locked ? null : "Lock in the estimate to go on.";
-    return orderState.locked ? null : "Lock in the order to go on.";
+    if (i === estimates.length) return orderState.locked ? null : "Lock in the order to go on.";
+    if (i === estimates.length + 1) return pickState.locked ? null : "Lock in your picks to go on.";
+    return null;
   },
 };
 
