@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 9.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 10.
 
 ## How every lesson works
 
@@ -195,6 +195,13 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Check:** given a prey density, set a slider to the number of tigers in 100 km².
 - **Gap before building:** the prey-to-tiger model's equation from Karanth et al. 2004 must be read
   so the sandbox uses the published fit, not a guess.
+  *Built:* the paper's full text could not be read (the publisher, PubMed Central and Europe PMC
+  all refuse automated reading; only the abstract was reached), so the published fit is dropped.
+  The sandbox and check use a teaching model instead, named as one: tigers per 100 km² = prey in
+  100 km² × a made-up share spared a year ÷ 50 kills a tiger a year. The live view draws the four
+  measured densities the dossier gives (Kaziranga and Corbett, India's 11 sites, Rajaji, Sikhote-Alin)
+  on a log scale. Leopards share above a made-up 30 prey per km² and keep away below 10, with the
+  stretch between left "not known". Junu's leopard drops "at night" (see `DECISIONS.md`).
 - **Research:** [ecology](research/ecology.md).
 
 ### 11. Tigers and people

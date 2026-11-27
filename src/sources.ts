@@ -137,4 +137,28 @@ export const SOURCES: Readonly<Record<string, Source>> = {
     "Sunda clouded leopard (Neofelis diardi)",
     "living-species-sundacloudedleopard",
   ),
+  Karanth2004: {
+    cite: "Karanth K. U., Nichols J. D., Kumar N. S., Link W. A., Hines J. E. (2004). Tigers and their prey: predicting carnivore densities from prey abundance. PNAS 101(14), 4854–4858.",
+    url: "https://doi.org/10.1073/pnas.0306210101",
+  },
+  Karanth2000: {
+    cite: "Karanth K. U., Sunquist M. E. (2000). Behavioural correlates of predation by tiger (Panthera tigris), leopard (Panthera pardus) and dhole (Cuon alpinus) in Nagarahole, India. Journal of Zoology 250(2), 255–265.",
+    url: "https://doi.org/10.1111/j.1469-7998.2000.tb01076.x",
+  },
+  Steinmetz2013: {
+    cite: "Steinmetz R., Seuaturien N., Chutipong W. (2013). Tigers, leopards, and dholes in a half-empty forest: assessing species interactions in a guild of threatened carnivores. Biological Conservation 163, 68–78.",
+    url: "https://doi.org/10.1016/j.biocon.2012.12.016",
+  },
+  Harihar2011: {
+    cite: "Harihar A., Pandav B., Goyal S. P. (2011). Responses of leopard Panthera pardus to the recovery of a tiger Panthera tigris population. Journal of Applied Ecology 48(4), 806–814.",
+    url: "https://doi.org/10.1111/j.1365-2664.2011.01981.x",
+  },
+  Liu2026: {
+    cite: "Liu Y., Dodge S., Simcharoen A., Smith J. L. D., Ahearn S. C. (2026). Avoidance dynamics in tiger-leopard coexistence: a time-geographic approach. Movement Ecology 14, 72.",
+    url: "https://doi.org/10.1186/s40462-026-00681-7",
+  },
+  Carter2019: {
+    cite: "Carter N. H., Levin S. A., Grimm V. (2019). Effects of human-induced prey depletion on large carnivores in protected areas: lessons from modeling tiger populations in stylized spatial scenarios. Ecology and Evolution 9, 11298–11313.",
+    url: "https://doi.org/10.1002/ece3.5632",
+  },
 };

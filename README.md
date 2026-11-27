@@ -6,8 +6,8 @@ cycle, subspecies, range, ecology, conservation) and the culture (history, myth,
 trade in tiger parts). Every lesson ends with interactive, hands-on checks.
 
 Status: building lessons. The cited dossier in `docs/research/` (start at its `index.md`) and the
-lesson outline (`docs/LESSONS.md`) are approved. Lessons 1 to 9 (*What is a tiger?*, *Two and a half million
-years of tigers*, *The body: size, coat, stripes*, *Voice and senses*, *Hunting*, *A territory of her own*, *A life: mating, cubs, leaving home*, *How many kinds of tiger?*, *Where tigers live*) are built; the rest follow in outline order. Lesson 1 is the front page; lesson
+lesson outline (`docs/LESSONS.md`) are approved. Lessons 1 to 10 (*What is a tiger?*, *Two and a half million
+years of tigers*, *The body: size, coat, stripes*, *Voice and senses*, *Hunting*, *A territory of her own*, *A life: mating, cubs, leaving home*, *How many kinds of tiger?*, *Where tigers live*, *Prey, rivals and the forest*) are built; the rest follow in outline order. Lesson 1 is the front page; lesson
 *n* is at `?lesson=n`. See `docs/BRIEF.md`.
 Researched and written with Claude (AI), and reviewed by the author.
 

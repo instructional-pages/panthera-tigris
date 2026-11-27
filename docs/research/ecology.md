@@ -92,5 +92,9 @@ many of the same animals. Several studies show how they manage to live together:
   changes the forest) needs a source; none read yet.
 - **Climate change and tiger habitat** (the Sundarbans and sea level, shifts in range): to
   research.
+- **Karanth et al. 2004's fitted model** (its equation and parameter values, and the 11 sites'
+  paired figures): the full text refuses automated reading at PNAS, PubMed Central and Europe
+  PMC (tried 2026-11-27); only the abstract is read. Lesson 10 uses a labelled teaching model
+  instead.
 - **Karanth & Sunquist 1995** (prey selection by the three predators, *Journal of Animal Ecology*
   64: 439–450) is the classic primary study; only its later companion paper has been read.
