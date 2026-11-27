@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 5.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 6.
 
 ## How every lesson works
 
@@ -125,6 +125,10 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Sandbox:** walk a tiger through the map; marks build up at edges and crossings, and the
   "odour field" shows where a meeting is likely.
 - **Check:** drop scent marks where a tiger would mark most, then compare with the field data.
+  *Built:* the map is a drawn grid (Junu between her mother and a neighbouring female, a male's
+  range over two of them, three travel routes), labelled a drawing. The check comes before the
+  edge pattern is told; the reveal shades her edges and the crossings. The sandbox's marking
+  chances are made up to follow the study's pattern, and say so (see `DECISIONS.md`).
 - **Research:** [behaviour](research/behaviour.md).
 
 ### 7. A life: mating, cubs, leaving home

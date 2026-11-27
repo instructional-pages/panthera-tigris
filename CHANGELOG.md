@@ -6,6 +6,21 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-11-27
+
+### Added
+
+- Lesson 6, *A territory of her own*: eight steps. Junu, two years old, leaves her mother and
+  settles next door on part of her mother's old range. Learn what a home range and a territory
+  are, how solitary tigers stay in touch, the five ways they mark, why marks gather at the edges
+  of a territory and where travel routes cross them, and how neighbouring females share a
+  boundary by visiting it at different times.
+- A check: leave Junu's five scent marks on a map of her range, then see where tigers really mark
+  most, before the lesson tells you.
+- A sandbox: walk Junu through her range a step at a time or a thousand at once, watch her marks
+  build up at the edges, compare where she spends her time with where she marks, and turn on the
+  "odour field" of the other tigers' marks to see where a meeting is likely.
+
 ## [0.6.0] - 2026-11-27
 
 ### Added
