@@ -6,6 +6,24 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-27
+
+### Added
+
+- Lesson 2, *Two and a half million years of tigers*: eleven steps beside a time line from
+  10.8 million years ago to today, drawn so each tick is ten times older than the next. Junu, two
+  months old, starts to travel with her mother. Learn Mya and kya, the Pleistocene, the Longdan
+  skull (the oldest member of the tiger's line), the trend to larger size, mitochondrial DNA and
+  the most recent common ancestor, the bottleneck about 100,000 years ago, and why the Toba
+  eruption is a hypothesis, not a proven cause.
+- The lesson's check: set a slider to when the last common ancestor of all living tigers lived,
+  then see the answer beside your estimate, and your estimate on the time line.
+- The lesson's sandbox: a model of maternal lines. Pick a population size, run generations, and
+  watch lines die out until every female shares one founding mother; a bottleneck makes it
+  happen fast. Your runs are listed side by side.
+- A list of the lessons at the top of every page, and a link to the next lesson on a lesson's
+  last step. Each lesson's code loads only when it is opened.
+
 ## [0.2.0] - 2026-11-27
 
 ### Added

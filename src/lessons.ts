@@ -1,0 +1,17 @@
+// The course's lessons, in order, and which one a page address asks for. Pure, so it is
+// tested without a browser; main.ts loads the lesson's code only when it is opened.
+
+export const TITLES: readonly string[] = ["1. What is a tiger?", "2. Two and a half million years of tigers"];
+
+/** The address of lesson `n` (1-based); lesson 1 is the course's front page. */
+export const href = (n: number): string => (n === 1 ? "./" : `./?lesson=${n}`);
+
+/**
+ * The lesson (1-based) a page's query string asks for: "?lesson=2" is 2; anything else is
+ * lesson 1. A query, not a hash, because citation links already use the hash.
+ */
+export function lessonOf(search: string): number {
+  const m = /^(\d+)$/.exec(new URLSearchParams(search).get("lesson") ?? "");
+  const n = m ? Number(m[1]) : 1;
+  return n >= 1 && n <= TITLES.length ? n : 1;
+}

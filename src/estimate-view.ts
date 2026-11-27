@@ -18,6 +18,8 @@ export interface Estimate extends EstimateSpec {
   readonly start?: number;
   /** Words for a guess below and above the answer, when "Too low" and "Too high" don't fit. */
   readonly words?: { readonly low: string; readonly high: string };
+  /** Largest value on the left, to match a figure beside it (a time line with the oldest on the left). */
+  readonly reverse?: boolean;
 }
 
 export interface EstimateState {
@@ -57,7 +59,11 @@ export function estimateView(e: Estimate, s: EstimateState, ui: Ui): HTMLElement
       input.setAttribute("aria-valuetext", v);
     },
   });
-  const ends = h("div", { cls: "estimate-ends", attrs: { "aria-hidden": "true" } }, h("span", {}, e.format(e.min)), h("span", {}, e.format(e.max)));
+  // A reversed slider is a range input drawn right to left: its value, keys and stops are unchanged.
+  if (e.reverse) input.style.direction = "rtl";
+  const along = (p: number): number => (e.reverse ? 1 - p : p);
+  const endLabels = [h("span", {}, e.format(e.min)), h("span", {}, e.format(e.max))];
+  const ends = h("div", { cls: "estimate-ends", attrs: { "aria-hidden": "true" } }, ...(e.reverse ? endLabels.reverse() : endLabels));
   const box = h("div", { cls: "panel estimate" }, h("p", { cls: "estimate-question" }, ...ui.rich(e.question)), shown, input, ends);
 
   if (!s.locked) {
@@ -85,8 +91,8 @@ export function estimateView(e: Estimate, s: EstimateState, ui: Ui): HTMLElement
     h(
       "div",
       { cls: "estimate-track", attrs: { role: "img", "aria-label": `Your estimate, ${e.format(guess)}, beside the answer, ${e.format(e.answer)}` } },
-      marker("guess", position(e, guess), "You"),
-      marker("answer", position(e, e.answer), "Answer"),
+      marker("guess", along(position(e, guess)), "You"),
+      marker("answer", along(position(e, e.answer)), "Answer"),
     ),
     h(
       "p",
