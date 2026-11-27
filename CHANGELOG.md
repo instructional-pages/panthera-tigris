@@ -4,6 +4,13 @@ All notable changes to this course are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- The lesson outline (`docs/LESSONS.md`): 14 lessons and a final quiz, with Junu, a fictional
+  Chitwan tigress, ageing through them. Waiting for the owner's approval.
+
 ## [0.1.0] - 2026-11-27
 
 ### Added
