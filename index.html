@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:" />
+    <title>Panthera tigris: a course about the tiger</title>
+    <script type="module" crossorigin src="./assets/index-DA0WCKXs.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/lessons-CdRxRpwm.js">
+    <link rel="modulepreload" crossorigin href="./assets/dom-DI8BYbxa.js">
+    <link rel="modulepreload" crossorigin href="./assets/photo-view-BOOpqrnE.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-DIhlKgDb.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="course">Panthera tigris · a course about the tiger, in science and culture</p>
+        <nav id="lesson-nav" class="lesson-nav" aria-label="Lessons"></nav>
+        <h1 id="lesson-title"></h1>
+      </header>
+      <div class="lesson">
+        <section class="steps" aria-labelledby="step-label">
+          <p id="step-label" class="step-label" aria-live="polite"></p>
+          <div id="step-text" class="step-text"></div>
+          <div class="nav">
+            <button type="button" id="back">Back</button>
+            <button type="button" id="next">Next</button>
+          </div>
+          <p id="nav-hint" class="hint" aria-live="polite"></p>
+          <p id="next-lesson" class="next-lesson"></p>
+        </section>
+        <section id="view" class="view" aria-label="Live view"></section>
+      </div>
+      <section class="sources" aria-labelledby="sources-title">
+        <h2 id="sources-title">Sources</h2>
+        <ol id="sources"></ol>
+      </section>
+      <section id="pictures-section" class="sources pictures" aria-labelledby="pictures-title" hidden>
+        <h2 id="pictures-title">Pictures</h2>
+        <ul id="pictures"></ul>
+      </section>
+      <footer>
+        <p>Researched and written with Claude (AI), and reviewed by the author. Junu is fictional. MIT license.</p>
+      </footer>
+    </main>
+  </body>
+</html>
