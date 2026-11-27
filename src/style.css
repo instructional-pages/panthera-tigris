@@ -943,3 +943,42 @@ footer {
 .eyes {
   max-width: 44rem;
 }
+
+/* Lesson 5: the prey by mass, the GPS drawing and the strip of kills. Told apart by fill,
+   dashes, glyphs and labels, not hue. */
+.prey-band {
+  fill: #1f1f1f;
+  stroke: #8a8a8a;
+  stroke-dasharray: 4 3;
+}
+
+.gps-path {
+  fill: none;
+  stroke: #5a5a5a;
+  stroke-width: 1;
+}
+
+.tl-open-ring {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+}
+
+.kill {
+  stroke: #e6e6e6;
+  stroke-width: 3;
+}
+
+.kill.ref {
+  stroke: #a3a3a3;
+  stroke-width: 1.5;
+  stroke-dasharray: 3 2;
+}
+
+.halo {
+  paint-order: stroke;
+  stroke: #000;
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}

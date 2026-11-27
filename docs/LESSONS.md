@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 4.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 5.
 
 ## How every lesson works
 
@@ -107,6 +107,11 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
   slider to the days between kills.
 - **Gap before building:** hunting success rate, teeth, claws and bite force are unsourced; they
   stay out until read.
+  *Built:* the gap is left out, not filled. The prey view draws Chitwan's prey at the weights of a
+  Chitwan scat study, which also shows "eaten most" against "preferred". The order check comes
+  before the hunt's steps are told and the slider before the kill rate; the sandbox shows one of
+  the study's own averages at a time (season, or size of the last kill), never the two combined
+  (see `DECISIONS.md`).
 - **Research:** [hunting](research/hunting.md).
 
 ### 6. A territory of her own
