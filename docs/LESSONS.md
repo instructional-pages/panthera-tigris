@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 to 10.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 11.
 
 ## How every lesson works
 
@@ -215,6 +215,11 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
   forest edge and season, and see how the relative risk moves (directions only where the studies
   give no number).
 - **Check:** predict which of two situations carried more risk, then see the study's figures.
+  *Built:* no source read gives a seasonal pattern, so season is dropped; the sandbox's choices are
+  where (in the forest, within 1 km of it, farther away), alone or in a group, and bending or
+  standing, each with its direction and the study's figure, and a ladder that only orders them.
+  The check is two pairs with figures (parks or buffer zones; bending or standing), before either
+  is told (see `DECISIONS.md`).
 - **Research:** [people](research/people.md).
 
 ### 12. The trade in tiger parts
