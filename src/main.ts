@@ -6,6 +6,7 @@ import { type Lesson, mount } from "./shell.ts";
 const LOAD: readonly (() => Promise<Lesson>)[] = [
   () => import("./lesson1-view.ts").then((m) => m.lesson1),
   () => import("./lesson2-view.ts").then((m) => m.lesson2),
+  () => import("./lesson3-view.ts").then((m) => m.lesson3),
 ];
 
 const n = lessonOf(location.search);

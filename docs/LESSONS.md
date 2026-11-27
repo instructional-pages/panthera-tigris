@@ -1,7 +1,7 @@
 # Lessons
 
 The course outline, written from the approved research dossier (`docs/research/`). **Status:
-approved by the owner on 2026-11-27.** Built so far: lessons 1 and 2.
+approved by the owner on 2026-11-27.** Built so far: lessons 1 to 3.
 
 ## How every lesson works
 
@@ -67,6 +67,10 @@ Each lesson opens with Junu at her age for that lesson, and the "Junu" line belo
 - **Sandbox:** a genetics model: choose two parents' genes for white or pseudomelanistic coat and
   breed litters; then shrink and isolate a population and watch a rare gene drift to common.
 - **Check:** match stripe patterns (drawn side views) to individual tigers.
+  *Built:* the check comes once unique stripes and camera traps are taught, before the coat
+  variants; the two sandboxes end the lesson. The size view draws only the sources' maxima
+  (Amur male, Sumatran), since neither gives figures for females; sex is told in words (see
+  `DECISIONS.md`).
 - **Research:** [body](research/body.md).
 
 ### 4. Voice and senses

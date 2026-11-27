@@ -78,8 +78,10 @@ topic files later; this file covers size, coat and voice.
 
 ## Open
 
-- Find a primary source for wild weights and lengths by region (body measurements of wild Amur
-  and Bengal tigers), and for the head-body/tail measurement convention.
+- Find a primary source for wild weights and lengths by region and sex (body measurements of
+  wild Amur and Bengal tigers), and for the head-body/tail measurement convention. Re-read
+  2026-11-27: neither [@SINZ] nor [@CATSG] gives females' sizes or Bengal figures, and the CATSG
+  page's chart of subspecies sizes is an image whose numbers were not read.
 - Mazák's *Mammalian Species* account (1981) was not retrievable; it is the classic reference for
   measurements.
 - The claim that the skin under the stripes is also dark is common but has no source here yet:

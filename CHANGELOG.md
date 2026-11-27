@@ -6,6 +6,21 @@ All notable changes to this course are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-11-27
+
+### Added
+
+- Lesson 3, *The body: size, coat, stripes*: twelve steps. Junu, six months old, already has her
+  own stripes. See the largest tiger (an Amur male) and the smallest (a Sumatran) drawn to scale
+  beside a person; why no two stripe patterns are the same; how camera traps tell tigers apart
+  and count them; melanin, genes, recessive copies and carriers; white tigers; and the
+  "black" (pseudomelanistic) tigers of Similipal, and why genetic drift made them common there.
+- The lesson's check: match four camera-trap photos, each showing part of a tiger's side, to
+  three tigers, then see which matches were right.
+- Two sandboxes: breed cubs from parents with zero, one or two copies of the white or "black"
+  coat's gene, and see how many show it; then follow a rare copy through 20 isolated
+  populations at once, small or large, and see where chance alone makes it common.
+
 ## [0.3.0] - 2026-11-27
 
 ### Added

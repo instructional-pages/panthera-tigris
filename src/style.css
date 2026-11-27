@@ -834,3 +834,75 @@ footer {
 .small {
   font-size: 0.8125rem;
 }
+
+/* Lesson 3: the size scene, coats side by side, and the genetics sandboxes */
+
+.size-scene {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.person {
+  fill: #9a9a9a;
+}
+
+.size-bracket {
+  fill: none;
+  stroke: #8a8a8a;
+  stroke-width: 1.5;
+}
+
+.size-name {
+  fill: var(--text);
+  font-size: 12px;
+}
+
+.coat-figure {
+  margin: 0 0 1rem;
+  max-width: 28rem;
+}
+
+.coat-figure figcaption {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  margin-top: 0.25rem;
+}
+
+.coat-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.cubs {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.cubs li {
+  text-align: center;
+  color: var(--muted);
+}
+
+.cubs li.shows {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.ref-line {
+  stroke: #8a8a8a;
+  stroke-width: 1;
+  stroke-dasharray: 1 3;
+}
+
+.drift-line {
+  fill: none;
+  stroke: #d0d0d0;
+  stroke-width: 1.25;
+  stroke-opacity: 0.7;
+}

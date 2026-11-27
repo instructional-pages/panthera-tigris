@@ -19,6 +19,14 @@ const BODY =
   "C232 56 220 62 206 60C196 64 188 70 184 76L186 110L172 110L166 84C140 88 104 88 80 84" +
   "L78 110L64 110L58 82C50 74 48 58 54 44Z";
 const TAIL = "M54 50C36 56 22 70 14 90";
+/** The full drawing's box, as viewBox numbers. */
+const BOX = [6, 12, W - 6, H - 12] as const;
+
+/**
+ * Where the tiger sits in a full (uncropped) drawing, measured from the box's top-left: the
+ * tail tip (with its round end), the nose, and the ground under the paws. For drawing to scale.
+ */
+export const DRAWING = { width: BOX[2], height: BOX[3], tail: 11.5 - BOX[0], nose: 235.5 - BOX[0], ground: 110 - BOX[1] } as const;
 /** The pale belly. */
 const BELLY = "M80 78C104 88 144 88 164 78L164 92L80 92Z";
 
@@ -49,7 +57,7 @@ export function tigerView(o: TigerOptions): SVGSVGElement {
   const sh = shapes(pattern(o.seed, coat, o.count), FLANK);
   const clip = `tiger-${o.key}`;
   const span = FLANK.right - FLANK.left;
-  const box = o.crop ? [FLANK.left + o.crop[0] * span, FLANK.top + 4, (o.crop[1] - o.crop[0]) * span, FLANK.depth] : [6, 12, W - 6, H - 12];
+  const box = o.crop ? [FLANK.left + o.crop[0] * span, FLANK.top + 4, (o.crop[1] - o.crop[0]) * span, FLANK.depth] : BOX;
   const svg = s("svg", { viewBox: box.join(" "), class: `tiger coat-${coat}${o.crop ? " photo" : ""}`, role: "img", "aria-label": o.title });
   svg.append(s("defs", {}, s("clipPath", { id: clip }, s("path", { d: BODY }))));
   svg.append(s("path", { d: TAIL, class: "tiger-tail" }), s("path", { d: BODY, class: "tiger-coat" }));
